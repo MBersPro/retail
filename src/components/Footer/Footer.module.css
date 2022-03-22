@@ -1,0 +1,60 @@
+.container{
+    box-sizing: border-box;
+    max-width: 450px;
+    padding-left: 15px;
+    padding-top: 100px;
+    padding-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+}
+.logoretail{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.p1{
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.p2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.phonekey{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+.emailkey{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+.phonevalue{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+.emailvalue{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
