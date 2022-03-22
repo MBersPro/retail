@@ -1,0 +1,79 @@
+.container{
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 15px 15px 15px;
+}
+
+.p{
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #808080;
+    margin-top: 22px;
+    margin-bottom: 29px;
+}
+li{
+    list-style: none;
+}
+
+.ul{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.crossedoutprice{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90.7%;
+    text-decoration-line: line-through;
+    color: #444444;
+
+}
+.clothingname{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 90.7%;
+    text-align: center;
+    color: #444444;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+.price{
+    margin: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 90.7%;
+    margin-bottom: 30px;
+}
+.realprice{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90.7%;
+    color: #F88787;
+}
+.button{
+    width: 170px;
+    height: 40px;
+    background: #1F60A1;
+    border-radius: 16px;
+    border: none;
+    color: #FFFF;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 6px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

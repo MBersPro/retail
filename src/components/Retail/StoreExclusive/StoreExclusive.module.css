@@ -1,0 +1,75 @@
+.container {
+    box-sizing: border-box;
+  max-width: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p {
+  text-align: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.box2p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.box3p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.box1 {
+  flex-basis: 30%;
+  height: 97px;
+  border: rgba(5, 67, 129, 1) 1px solid;
+  margin-right: 7px;
+}
+.box2 {
+  flex-basis: 70%;
+  height: 97px;
+  border: rgba(5, 67, 129, 1) 1px solid;
+}
+.box3 {
+  flex-basis: 70%;
+  height: 97px;
+  border: rgba(5, 67, 129, 1) 1px solid;
+  margin-right: 7px;
+}
+.box4 {
+  flex-basis: 30%;
+  height: 97px;
+  border: rgba(5, 67, 129, 1) 1px solid;
+}
+.divbox1 {
+  display: flex;
+  margin-bottom: 7px;
+  justify-content: center;
+}
+.divbox2 {
+  display: flex;
+  justify-content: center;
+}
+.contdivbox {
+  display: block;
+}
