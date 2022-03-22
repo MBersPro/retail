@@ -29,7 +29,7 @@ const App = () => {
       {page.korzina && <Korzina />}
       {page.kontakti && <Kontakti />}
       <Gradient>
-        <Footer/>
+        <Footer />
       </Gradient>
     </>
   );
