@@ -2,7 +2,10 @@ import React from "react";
 import styles from "./Header.module.css";
 const Header = ({ changePage }) => {
 
-  const onChangePage = {
+  const onChangePage = (e) => {
+    const page = e.target.name
+    console.log(page)
+    changePage(page)
   }
 
   return (
@@ -11,16 +14,24 @@ const Header = ({ changePage }) => {
         <nav>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              <button type="button" name="retail" onClick={onChangePage}>RETAIL</button>
+              <button type="button" name="retail" onClick={onChangePage}>
+                RETAIL
+              </button>
             </li>
             <li className={styles.li}>
-              <button>КАТАЛОГ</button>
+              <button type="button" name="katalog" onClick={onChangePage}>
+                КАТАЛОГ
+              </button>
             </li>
             <li className={styles.li}>
-              <button>КОРЗИНА</button>
+              <button type="button" name="korzina" onClick={onChangePage}>
+                КОРЗИНА
+              </button>
             </li>
             <li className={styles.li}>
-              <button>КОНТАКТЫ</button>
+              <button type="button" name="kontakti" onClick={onChangePage}>
+                КОНТАКТЫ
+              </button>
             </li>
           </ul>
         </nav>
