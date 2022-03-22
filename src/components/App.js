@@ -6,6 +6,7 @@ import Korzina from "./Korzina/Korzina";
 import Kontakti from "./Kontakti/Kontakti";
 import Retail from "./Retail/Retail";
 import Footer from "./Footer/Footer";
+import Instructions from "./Instructions/Instructions";
 // import Catalog from "./Catalog/Catalog";
 
 const initialPage = {
@@ -28,9 +29,11 @@ const App = () => {
       {page.katalog && <FilterCatalog />}
       {page.korzina && <Korzina />}
       {page.kontakti && <Kontakti />}
+      <Instructions/>
       <Gradient>
         <Footer/>
       </Gradient>
+      
     </>
   );
 };
