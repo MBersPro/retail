@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/retail/static/css/main.55939e70.css",
+    "main.js": "/retail/static/js/main.7b62442a.js",
+    "static/media/kanyeface.png": "/retail/static/media/kanyeface.cd453c3994f4d17e4f62.png",
+    "static/media/car.png": "/retail/static/media/car.8099d7ed065a887d74f4.png",
+    "static/media/card.png": "/retail/static/media/card.152120e366ed82e03b49.png",
+    "index.html": "/retail/index.html",
+    "main.55939e70.css.map": "/retail/static/css/main.55939e70.css.map",
+    "main.7b62442a.js.map": "/retail/static/js/main.7b62442a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55939e70.css",
+    "static/js/main.7b62442a.js"
+  ]
+}
