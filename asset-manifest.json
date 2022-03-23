@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/retail/static/css/main.5485bc6d.css",
-    "main.js": "/retail/static/js/main.83acaf28.js",
+    "main.css": "/retail/static/css/main.39717747.css",
+    "main.js": "/retail/static/js/main.d26f4dc5.js",
     "static/media/kanyeface.png": "/retail/static/media/kanyeface.cd453c3994f4d17e4f62.png",
     "static/media/car.png": "/retail/static/media/car.8099d7ed065a887d74f4.png",
     "static/media/card.png": "/retail/static/media/card.152120e366ed82e03b49.png",
     "index.html": "/retail/index.html",
-    "main.5485bc6d.css.map": "/retail/static/css/main.5485bc6d.css.map",
-    "main.83acaf28.js.map": "/retail/static/js/main.83acaf28.js.map"
+    "main.39717747.css.map": "/retail/static/css/main.39717747.css.map",
+    "main.d26f4dc5.js.map": "/retail/static/js/main.d26f4dc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5485bc6d.css",
-    "static/js/main.83acaf28.js"
+    "static/css/main.39717747.css",
+    "static/js/main.d26f4dc5.js"
   ]
 }
