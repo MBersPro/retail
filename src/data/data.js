@@ -1,4 +1,4 @@
-export const products = [
+export const data = [
   {
     name: "Куртка Moncler",
     price: 25000,
