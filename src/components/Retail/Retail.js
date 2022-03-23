@@ -4,10 +4,10 @@ import StoreExclusive from "./StoreExclusive/StoreExclusive";
 
 const Retail = () => {
   return (
-    <>
+    <main>
       <Logo />
       <StoreExclusive />
-    </>
+    </main>
   );
 };
 

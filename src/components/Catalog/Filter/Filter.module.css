@@ -1,0 +1,11 @@
+.container {
+    min-width: 350px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.filter_button {
+width: 100%;
+}
