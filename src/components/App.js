@@ -29,11 +29,10 @@ const App = () => {
       {page.katalog && <FilterCatalog />}
       {page.korzina && <Korzina />}
       {page.kontakti && <Kontakti />}
-      <Instructions/>
+      <Instructions />
       <Gradient>
         <Footer />
       </Gradient>
-      
     </>
   );
 };
