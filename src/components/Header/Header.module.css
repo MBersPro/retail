@@ -1,6 +1,6 @@
 .container{
     box-sizing: border-box;
-    padding: 15px 15px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     max-width: 450px;
@@ -8,9 +8,10 @@
 }
 .ul{
     display: flex;
-    justify-content: center;
+
     padding: 0;
     margin: 0;
+    justify-content: space-between;
 }
 .li{
     list-style: none;
@@ -19,20 +20,13 @@
     color: white;
     font-size: 15px;
 }
-.li:not(:last-child){
-    margin-right: 15px;
-}
 .buttonnav{
-        text-decoration: none;
-        display: inline-block;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 10px;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 2px;
-        background-image: linear-gradient(to right, #003D7A 0%, rgba(1, 83, 165, 0.8) 50%, rgba(1, 83, 165, 0.62) 88.56%);
-        background-size: 200% auto;
-        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-        transition: .5s;
-        border: none;
+    background-image: linear-gradient(to right, #003D7A 0%, rgba(1, 83, 165, 0.8) 50%, rgba(1, 83, 165, 0.62) 88.56%);
+    font-size: 13px;
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    width: 85px;
+
 }
