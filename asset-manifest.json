@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/retail/static/css/main.5dfcf27f.css",
-    "main.js": "/retail/static/js/main.4dadd62b.js",
+    "main.css": "/retail/static/css/main.7abe74f6.css",
+    "main.js": "/retail/static/js/main.3027acb1.js",
+    "static/media/backgroundAboutUs.png": "/retail/static/media/backgroundAboutUs.bc3f217c5414b8e0ac9c.png",
     "static/media/kanyeface.png": "/retail/static/media/kanyeface.cd453c3994f4d17e4f62.png",
     "static/media/car.png": "/retail/static/media/car.8099d7ed065a887d74f4.png",
     "static/media/card.png": "/retail/static/media/card.152120e366ed82e03b49.png",
     "index.html": "/retail/index.html",
-    "main.5dfcf27f.css.map": "/retail/static/css/main.5dfcf27f.css.map",
-    "main.4dadd62b.js.map": "/retail/static/js/main.4dadd62b.js.map"
+    "main.7abe74f6.css.map": "/retail/static/css/main.7abe74f6.css.map",
+    "main.3027acb1.js.map": "/retail/static/js/main.3027acb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dfcf27f.css",
-    "static/js/main.4dadd62b.js"
+    "static/css/main.7abe74f6.css",
+    "static/js/main.3027acb1.js"
   ]
 }
