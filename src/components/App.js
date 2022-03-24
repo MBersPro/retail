@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer";
 import Instructions from "./Retail/Instructions/Instructions";
 
 import { data } from "./../data/data";
+import AboutUs from "./AboutUs/AboutUs";
 
 const initialPage = {
   retail: true,
@@ -43,6 +44,7 @@ const App = () => {
         <Header changePage={changePage} />
         {page.retail && <Retail />}
       </Gradient>
+      <AboutUs/>
       {page.katalog && (
         <Catalog
           addToKorzina={addToKorzina}

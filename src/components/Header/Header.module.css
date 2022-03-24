@@ -8,7 +8,6 @@
 }
 .ul{
     display: flex;
-
     padding: 0;
     margin: 0;
     justify-content: space-between;
@@ -21,12 +20,15 @@
     font-size: 15px;
 }
 .buttonnav{
+    box-shadow: none;
     background-image: linear-gradient(to right, #003D7A 0%, rgba(1, 83, 165, 0.8) 50%, rgba(1, 83, 165, 0.62) 88.56%);
-    font-size: 13px;
-    border: 1px rgb(255, 255, 255) solid;
+    font-size: 12px;
+    border: none;
     border-radius: 10px;
     color: white;
     font-family: "DM Sans", sans-serif;
-    width: 85px;
+    width: 82px;
+    height: 30px;
+    padding: 0;
 
 }
