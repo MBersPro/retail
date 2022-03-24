@@ -13,22 +13,22 @@ const Header = ({ changePage }) => {
         <nav>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              <button type="button" name="retail" onClick={onChangePage}>
+              <button type="button" name="retail" onClick={onChangePage} className={styles.buttonnav}>
                 RETAIL
               </button>
             </li>
             <li className={styles.li}>
-              <button type="button" name="katalog" onClick={onChangePage}>
+              <button type="button" name="katalog" onClick={onChangePage} className={styles.buttonnav}>
                 КАТАЛОГ
               </button>
             </li>
             <li className={styles.li}>
-              <button type="button" name="korzina" onClick={onChangePage}>
+              <button type="button" name="korzina" onClick={onChangePage} className={styles.buttonnav}>
                 КОРЗИНА
               </button>
             </li>
             <li className={styles.li}>
-              <button type="button" name="kontakti" onClick={onChangePage}>
+              <button type="button" name="kontakti" onClick={onChangePage} className={styles.buttonnav}>
                 КОНТАКТЫ
               </button>
             </li>
