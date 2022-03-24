@@ -1,12 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./Korzina.module.css";
 
 const Korzina = ({ korzina, deleteFromKorzina }) => {
-
-    const onDeleteFromKorzina = (e) => {
-        const id = e.target.id;
-        deleteFromKorzina(id)
-    }
+  const onDeleteFromKorzina = (e) => {
+    const id = e.target.id;
+    deleteFromKorzina(id);
+  };
   return (
     <main>
       <div>
@@ -25,8 +24,10 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
               src={product.image}
               alt={product.name}
             />
-                <p>{product.name}</p>
-                <button type="button" id={product.id} onClick={onDeleteFromKorzina}>Удалить из корзины</button>
+            <p>{product.name}</p>
+            <button type="button" id={product.id} onClick={onDeleteFromKorzina}>
+              Удалить из корзины
+            </button>
           </li>
         ))}
       </ul>

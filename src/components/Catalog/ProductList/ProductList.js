@@ -2,7 +2,7 @@ import React from "react";
 import Product from "./Product/Product";
 import styles from "./ProductList.module.css";
 
-const ProductList = ({ products, addToKorzina, korzina }) => {
+const ProductList = ({ products, addToKorzina, korzina, added }) => {
   return (
     <div>
       <main>
@@ -12,6 +12,7 @@ const ProductList = ({ products, addToKorzina, korzina }) => {
               product={product}
               addToKorzina={addToKorzina}
               korzina={korzina}
+              added={added}
             />
           ))}
         </ul>
