@@ -44,7 +44,7 @@ const App = () => {
         <Header changePage={changePage} />
         {page.retail && <Retail />}
       </Gradient>
-      <AboutUs/>
+      {page.retail && <AboutUs/>}
       {page.katalog && (
         <Catalog
           addToKorzina={addToKorzina}
