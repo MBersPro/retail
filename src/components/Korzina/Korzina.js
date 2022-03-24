@@ -9,8 +9,8 @@ const Korzina = ({ korzina }) => {
         удобным для вас способом и назовите ему артукул тех товаров, которые
         хотите приобрести.
       </div>
-      <a href="t-do.ru/buyer_3198">Telegram</a>
-      <a>WhatsApp</a>
+      <a href="tg://resolve?domain=buyer_3198">Telegram</a>
+      <a href="https://wa.me/79688588238">WhatsApp</a>
       <ul>
         {korzina.map((product) => (
           <li>
