@@ -4,7 +4,6 @@ const Header = ({ changePage }) => {
 
   const onChangePage = (e) => {
     const page = e.target.name
-    console.log(page)
     changePage(page)
   }
 

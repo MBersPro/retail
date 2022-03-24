@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Catalog.module.css"
 import ProductList from "./ProductList/ProductList";
 import Filter from "./Filter/Filter";
-import { data } from "./../../data/data";
+// import { data } from "./../../data/data";
 
-const Catalog = () => {
-  const [products, setProducts] = useState([...data]);
+const Catalog = ({ addToKorzina, products }) => {
 
   return (
     <main className={styles.container}>
       <Filter />
-      <ProductList products={products} />
+      <ProductList products={products} addToKorzina={addToKorzina} />
     </main>
   );
 };

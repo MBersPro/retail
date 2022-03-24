@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Product from "./Product/Product";
 import styles from "./ProductList.module.css";
 
-const ProductList = ({products}) => {
+const ProductList = ({products, addToKorzina}) => {
   return (
     <div>
       <main>
         <ul>
           {products.map((product) => (
-            <Product product={product} />
+            <Product product={product} addToKorzina={addToKorzina} />
           ))}
         </ul>
       </main>

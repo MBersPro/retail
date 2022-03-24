@@ -8,15 +8,26 @@ import Retail from "./Retail/Retail";
 import Footer from "./Footer/Footer";
 import Instructions from "./Retail/Instructions/Instructions";
 
+import { data } from "./../data/data";
+
 const initialPage = {
   retail: true,
 };
 
 const App = () => {
   const [page, setPage] = useState({ ...initialPage });
+  const [korzina, setKorzina] = useState([]);
+  const [products, setProducts] = useState([...data]);
 
   const changePage = (page) => {
     setPage({ [page]: true });
+  };
+
+  const addToKorzina = (id) => {
+    setKorzina((prev) => [
+      ...prev,
+      ...products.filter((product) => product.id === id),
+    ]);
   };
 
   return (
@@ -25,8 +36,10 @@ const App = () => {
         <Header changePage={changePage} />
         {page.retail && <Retail />}
       </Gradient>
-      {page.katalog && <Catalog />}
-      {page.korzina && <Korzina />}
+      {page.katalog && (
+        <Catalog addToKorzina={addToKorzina} products={products} />
+      )}
+      {page.korzina && <Korzina korzina={korzina} />}
       {page.kontakti && <Kontakti />}
       <Instructions />
       <Gradient>
