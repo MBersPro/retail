@@ -26,8 +26,15 @@ const App = () => {
   const addToKorzina = (id) => {
     setKorzina((prev) => [
       ...prev,
-      ...products.filter((product) => product.id === id),
+      { ...products.find((product) => product.id === id) },
     ]);
+    // setProducts((prev) => [
+    //    ...prev.filter((product) => product.id !== id),
+    //   { ...products.find((product) => product.id === id), added: true }
+    // ]);
+
+    // setProducts((prev) => [...prev.forEach((product) => if (product.id === id) {...product, added: true})]);
+    // console.log()
   };
 
   return (
@@ -37,7 +44,11 @@ const App = () => {
         {page.retail && <Retail />}
       </Gradient>
       {page.katalog && (
-        <Catalog addToKorzina={addToKorzina} products={products} />
+        <Catalog
+          addToKorzina={addToKorzina}
+          products={products}
+          korzina={korzina}
+        />
       )}
       {page.korzina && <Korzina korzina={korzina} />}
       {page.kontakti && <Kontakti />}
