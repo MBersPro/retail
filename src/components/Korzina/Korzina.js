@@ -11,6 +11,7 @@ const Korzina = ({ korzina }) => {
       </div>
       <a href="tg://resolve?domain=buyer_3198">Telegram</a>
       <a href="https://wa.me/79688588238">WhatsApp</a>
+      <a href="tel:+79688588238">+79688588238</a>
       <ul>
         {korzina.map((product) => (
           <li>
