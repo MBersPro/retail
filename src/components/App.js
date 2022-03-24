@@ -15,6 +15,7 @@ const initialPage = {
 };
 
 const App = () => {
+  const [added, setAdded] = useState([]);
   const [page, setPage] = useState({ ...initialPage });
   const [korzina, setKorzina] = useState([]);
   const [products, setProducts] = useState([...data]);
@@ -28,17 +29,12 @@ const App = () => {
       ...prev,
       { ...products.find((product) => product.id === id) },
     ]);
-    // setProducts((prev) => [
-    //    ...prev.filter((product) => product.id !== id),
-    //   { ...products.find((product) => product.id === id), added: true }
-    // ]);
-
-    // setProducts((prev) => [...prev.forEach((product) => if (product.id === id) {...product, added: true})]);
-    // console.log()
+    setAdded((prev) => [...prev, id]);
   };
 
   const deleteFromKorzina = (id) => {
     setKorzina((prev) => [...prev.filter((product) => product.id !== id)]);
+    setAdded((prev) => [...prev.filter((item) => item !== id)])
   };
 
   return (
@@ -52,6 +48,7 @@ const App = () => {
           addToKorzina={addToKorzina}
           products={products}
           korzina={korzina}
+          added={added}
         />
       )}
       {page.korzina && (
