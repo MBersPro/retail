@@ -37,6 +37,10 @@ const App = () => {
     // console.log()
   };
 
+  const deleteFromKorzina = (id) => {
+    setKorzina((prev) => [...prev.filter((product) => product.id !== id)]);
+  };
+
   return (
     <>
       <Gradient>
@@ -50,7 +54,9 @@ const App = () => {
           korzina={korzina}
         />
       )}
-      {page.korzina && <Korzina korzina={korzina} />}
+      {page.korzina && (
+        <Korzina korzina={korzina} deleteFromKorzina={deleteFromKorzina} />
+      )}
       {page.kontakti && <Kontakti />}
       <Instructions />
       <Gradient>

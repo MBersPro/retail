@@ -7,6 +7,8 @@ const Product = ({ product, addToKorzina, korzina }) => {
     addToKorzina(id);
   };
 
+  
+
   return (
     <li className={styles.li}>
       <img className={styles.image} src={product.image} alt={product.name} />
