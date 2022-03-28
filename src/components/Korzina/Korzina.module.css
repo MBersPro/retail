@@ -33,30 +33,24 @@ a{
     margin-bottom: 25px;
 }
 .divA{
-    display: flex;
+    display: block;
     text-align: center;
 }
-.telegramIcon{
-
-}
 .aTelegram{
-    display: block;
+    display: inline-block;
     color:white;
     background-color: #0088cc;
     border-radius:5px;
-    font-size: 19px;
+    font-size: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 70%;
     height: 20px;
     margin-bottom: 10px;
 }
-.whatsAppIcon{
-    margin-right: 3px;
-    vertical-align: middle;
-}
+
 .aWhatsApp{
-    display: block;
+    display: inline-block;
     color: white;
     background-color: #25D366;
     padding-top: 5px;
@@ -67,10 +61,7 @@ a{
     height: 20px;
     margin-bottom: 10px;
 }
-.numberIcon{
-    width: 20px;
-    height: 20px;
-}
+
 .aNumber{
     display: inline-block;
     color: white;
