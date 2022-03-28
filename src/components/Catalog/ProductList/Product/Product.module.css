@@ -11,3 +11,10 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.divProduct{
+    background-color: rgb(73, 79, 95);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}

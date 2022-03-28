@@ -1,6 +1,116 @@
+.container{
+    box-sizing: border-box;
+    max-width: 450px;
+    padding: 35px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    font-family: 'DM Sans', sans-serif;
+}
 .image {
     width: 150px;
 }
+.ul{
+    padding: 0;
+    text-align: center;
+}
 li{
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.pInstruction{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 146.2%;  
+    margin-top:0;
+    margin-bottom: 0px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+.divA{
+    display: flex;
+    text-align: center;
+}
+.telegramIcon{
+
+}
+.aTelegram{
+    display: block;
+    color:white;
+    background-color: #0088cc;
+    border-radius:5px;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.whatsAppIcon{
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.aWhatsApp{
+    display: block;
+    color: white;
+    background-color: #25D366;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.numberIcon{
+    width: 20px;
+    height: 20px;
+}
+.aNumber{
+    display: inline-block;
+    color: white;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70%;
+    height: 20px;
+}
+
+.productName{
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.btnDel{
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.divProduct{
+    background-color: rgb(73, 79, 95);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.li:not(:last-child){
+    margin-bottom: 20px;
 }
