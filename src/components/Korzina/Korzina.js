@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import styles from "./Korzina.module.css";
 const Korzina = ({ korzina, deleteFromKorzina }) => {
   const onDeleteFromKorzina = (e) => {
