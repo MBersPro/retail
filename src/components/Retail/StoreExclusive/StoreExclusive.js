@@ -3,7 +3,7 @@ import styles from "./StoreExclusive.module.css";
 const StoreExclusive = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.p}>Магазин эксклюзивной одежды</p>
+      <p className={styles.p}>Магазин высококачественной одежды</p>
 
       <div className={styles.contdivbox}>
         <div className={styles.divbox1}>
