@@ -6,8 +6,43 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
     deleteFromKorzina(id);
   };
   return (
-    <main>
-      <div className={styles.container}>
+    <main className={styles.container}>
+      <ul className={styles.ul}>
+        {korzina.map((product) => (
+          <li className={styles.li}>
+            <div className={styles.image_container}>
+              <img
+                className={styles.image}
+                src={product.image}
+                alt={product.name}
+              />
+            </div>
+            <div className={styles.productCharactersContainer}>
+              <div className={styles.p_contrainer}>
+                <p className={styles.name}>{product.name}</p>
+                <p className={styles.price}>{product.price}₽</p>
+                <p className={styles.season}>
+                  <span className={styles.season_span}>Сезон:</span>
+                  {product.seasons.map((season) => (
+                    <span className={styles.season_span}>{season}</span>
+                  ))}
+                </p>
+                <p>Артикул: {product.id}</p>
+              </div>
+
+              <button
+                className={styles.btnDel}
+                type="button"
+                id={product.id}
+                onClick={onDeleteFromKorzina}
+              >
+                Удалить из корзины
+              </button>
+            </div>
+          </li>
+        ))}
+      </ul>
+      <div>
         <p className={styles.pInstruction}>
           Для того, чтобы осуществить заказ,
           <br />
@@ -33,30 +68,6 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
             +79688588238
           </a>
         </div>
-
-        <ul className={styles.ul}>
-          {korzina.map((product) => (
-            <li className={styles.li}>
-              <div className={styles.divProduct}>
-                <img
-                  className={styles.image}
-                  src={product.image}
-                  alt={product.name}
-                />
-                <p className={styles.productName}>{product.name}</p>
-
-                <button
-                  className={styles.btnDel}
-                  type="button"
-                  id={product.id}
-                  onClick={onDeleteFromKorzina}
-                >
-                  Удалить из корзины
-                </button>
-              </div>
-            </li>
-          ))}
-        </ul>
       </div>
     </main>
   );

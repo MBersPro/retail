@@ -5,6 +5,9 @@
   list-style: none;
   text-align: center;
 }
+.li:not(:last-child) {
+  margin-bottom: 20px;
+}
 .image_container {
   width: 150px;
   height: 225px;
@@ -22,9 +25,6 @@
   max-width: 140px;
 }
 
-/* .p_contrainer{
-
-} */
 .name {
   margin-top: 0;
   margin-bottom: 0;
@@ -33,7 +33,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.season{
+.season {
   margin-top: 0;
   margin-bottom: 0;
 }

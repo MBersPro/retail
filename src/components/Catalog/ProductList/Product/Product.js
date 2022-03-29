@@ -31,6 +31,7 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
               ? styles.buttonAdded
               : styles.buttonNotAdded
           }
+          disabled={added.includes(product.id)}
           type="button"
           id={product.id}
           onClick={onAddToKorzina}

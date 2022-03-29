@@ -1,51 +1,56 @@
-.container{
-    box-sizing: border-box;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 450px;
-    min-width: 350px;
+.container {
+  box-sizing: border-box;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  min-width: 350px;
 }
-.div{  
-    position: relative;
-    text-align: center;
-
+.div {
+  position: relative;
+  text-align: center;
 }
-.backgroundAboutUs{
-    width: 100%;
-    height: 250px;
+.backgroundAboutUs {
+  width: 100%;
+  height: 250px;
 }
-.p{
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    color: white;
-    margin: 0;
-    width: 80%;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 146.2%;
-    
+.p {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: white;
+  margin: 0;
+  width: 80%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 146.2%;
 }
-.p2{
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    color: white;
-    margin: 0;
-    width: 80%;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 146.2%;
-    text-align: center;
+.p2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+  margin: 0;
+  width: 80%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 146.2%;
+  text-align: center;
 }
 
-.button{
-    position: absolute;
-    top: 70%;
-    left: 35%;
+.button {
+  background-color: white;
+  color: red;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+    border-radius: 5px;
+  border: none;
+    padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
 }
