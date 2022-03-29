@@ -31,7 +31,7 @@
 }
 .p2{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 10%;
     color: white;
     margin: 0;
@@ -42,4 +42,10 @@
     font-size: 15px;
     line-height: 146.2%;
     text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 35%;
 }

@@ -4,9 +4,8 @@ import styles from "./ProductList.module.css";
 
 const ProductList = ({ products, addToKorzina, korzina, added }) => {
   return (
-    <div>
-      <main>
-        <ul>
+    <div className={styles.container}>
+        <ul className={styles.ul}>
           {products.map((product) => (
             <Product
               product={product}
@@ -16,7 +15,6 @@ const ProductList = ({ products, addToKorzina, korzina, added }) => {
             />
           ))}
         </ul>
-      </main>
     </div>
   );
 };

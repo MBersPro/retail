@@ -10,6 +10,7 @@ import Instructions from "./Retail/Instructions/Instructions";
 
 import { data } from "./../data/data";
 import AboutUs from "./AboutUs/AboutUs";
+import Benefits from "./Benefits/Benefits";
 
 const initialPage = {
   retail: true,
@@ -44,7 +45,8 @@ const App = () => {
         <Header changePage={changePage} />
         {page.retail && <Retail />}
       </Gradient>
-      {page.retail && <AboutUs/>}
+      {page.retail && <AboutUs changePage={changePage} />}
+      {page.retail && <Benefits/>}
       {page.katalog && (
         <Catalog
           addToKorzina={addToKorzina}

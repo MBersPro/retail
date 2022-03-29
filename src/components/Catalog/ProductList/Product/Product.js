@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Product.module.css";
 
 const Product = ({ product, addToKorzina, korzina, added }) => {
@@ -9,9 +9,15 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
 
   return (
     <li className={styles.li}>
-    <div className={styles.divProduct}>
+      <div>
         <img className={styles.image} src={product.image} alt={product.name} />
-        <p className={styles.p}>{product.name}</p>
+      </div>
+      <div className={styles.productCharactersContainer}>
+        <div className={styles.p_contrainer}>
+          <p className={styles.name}>{product.name}</p>
+          <p className={styles.price}>{product.price}₽</p>
+        </div>
+
         <button
           className={
             added.includes(product.id)
@@ -22,12 +28,12 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
           id={product.id}
           onClick={onAddToKorzina}
         >
-        {added.includes(product.id) ? (
-          <span>Товар добавлен в корзину</span>
-        ) : (
-          <span>Добавить в корзину</span>
-        )}
-      </button>
+          {added.includes(product.id) ? (
+            <span>Добавлено в корзину</span>
+          ) : (
+            <span>Добавить в корзину</span>
+          )}
+        </button>
       </div>
     </li>
   );
