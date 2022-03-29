@@ -22,6 +22,7 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
               <span className={styles.season_span}>{season}</span>
             ))}
           </p>
+          <p>Описание:</p>
         </div>
 
         <button
