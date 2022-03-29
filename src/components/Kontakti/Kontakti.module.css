@@ -8,12 +8,14 @@
 }
 .divPhone{
     display: flex;
+    margin-bottom: 25px;
 }
 .divTelegram{
     display: flex;
 }
 .phone{
-    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -21,5 +23,23 @@
     letter-spacing: 0.12em;
     color: #000000;
     margin: 0;
-
+    line-height: 27px;
+}
+.telegram{
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    color: #000000;
+    margin: 0;
+    line-height: 27px;   
+}
+.phoneIcon{
+    margin-right: 10px;
+}
+.telegramIcon{
+    margin-right: 10px;
 }
