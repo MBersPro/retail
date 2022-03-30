@@ -1,3 +1,7 @@
+.backgroundContacts{
+    background-color: #B91A21;
+    width: 100%;
+}
 .container{
     box-sizing: border-box;
     padding: 15px;
@@ -6,40 +10,47 @@
     max-width: 450px;
     min-width: 350px;
 }
-.divPhone{
-    display: flex;
-    margin-bottom: 25px;
-}
-.divTelegram{
-    display: flex;
+.divContacts{
+    padding: 40px 35px;
 }
 .phone{
-    display: inline-block;
+    display: block;
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 15px;
     letter-spacing: 0.12em;
-    color: #000000;
+    color: #ffffff;
     margin: 0;
     line-height: 27px;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 .telegram{
-    display: inline-block;
+    display: block;
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 15px;
     letter-spacing: 0.12em;
-    color: #000000;
+    color: #ffffff;
     margin: 0;
-    line-height: 27px;   
+    line-height: 27px;
+    text-decoration: none;   
+    margin-bottom: 20px;
 }
-.phoneIcon{
-    margin-right: 10px;
-}
-.telegramIcon{
-    margin-right: 10px;
+.WhatsApp{
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    color: #ffffff;
+    margin: 0;
+    line-height: 27px;
+    text-decoration: none;   
 }
