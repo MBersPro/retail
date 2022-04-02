@@ -17,7 +17,6 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     color: white;
-    font-size: 15px;
 }
 .buttonnav{
     box-shadow: none;
@@ -31,4 +30,25 @@
     height: 30px;
     padding: 0;
 
+}
+
+@media (min-width: 767px) {
+    .container{
+        box-sizing: border-box;
+        padding: 30px 15px 70px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 737px;
+    }
+    .buttonnav{
+        background: linear-gradient(to right, #003D7A 0%, rgba(1, 83, 165, 0.8) 50%, rgba(1, 83, 165, 0.62) 88.56%);
+        font-size: 18px;
+        width: 150px;   
+    }
+    .ul{
+        justify-content: center; 
+    }
+    .li:not(:last-child){
+        margin-right: 15px;
+    }
 }

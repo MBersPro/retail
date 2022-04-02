@@ -26,3 +26,20 @@
     text-align: center;
     margin: 0
 }
+@media (min-width: 767px) {
+    .container{
+        box-sizing: border-box;
+        padding: 70px 15px 50px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 737px;
+    }
+    .h1{
+        margin-bottom: 10px;
+        font-size: 64px; 
+    }
+    .kanye{
+        width: 234px;
+        height: 302px;
+    }
+}

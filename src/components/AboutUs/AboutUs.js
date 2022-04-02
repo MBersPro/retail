@@ -1,5 +1,4 @@
 import React from "react";
-import backgroundAboutUs from "./backgroundAboutUs.png";
 import styles from "./AboutUs.module.css";
 const AboutUs = ({changePage}) => {
   const onChangePage = (e) => {
@@ -9,16 +8,12 @@ const AboutUs = ({changePage}) => {
   return (
     <div className={styles.container}>
       <div className={styles.div}>
-        <img
-          src={backgroundAboutUs}
-          alt="red-screen"
-          className={styles.backgroundAboutUs}
-        />
         <p className={styles.p}>
-          На нашем сайте Вы найдете для себя интересный ассортимент качественной
+          На нашем сайте Вы найдете для себя <br/> 
+          интересный ассортимент качественной<br/>
           брендовой одежды.
         </p>
-        <p className={styles.p2}>Оплата заказа после примерки.</p>
+        <p className={styles.p2}><b>Оплата заказа после примерки.</b></p>
         <button
           type="button"
           name="katalog"

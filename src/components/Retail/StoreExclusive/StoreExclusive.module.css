@@ -81,3 +81,38 @@
 .contdivbox {
   display: block;
 }
+@media (min-width: 767px) {
+  .container{
+    box-sizing: border-box;
+    padding: 50px 15px 70px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 737px;
+  }
+  .p {
+    font-size: 22px;
+    margin-bottom: 45px;
+  }
+  .box2p {
+    font-size: 22px;
+  }
+  .box3p {
+    font-size: 22px;
+  }
+  .box1 {
+    flex-basis: 40%;
+    height: 216px;
+  }
+  .box2 {
+    flex-basis: 60%;
+    height: 216px;
+  }
+  .box3 {
+    flex-basis: 60%;
+    height: 216px;
+  }
+  .box4 {
+    flex-basis: 40%;
+    height: 216px;
+  }
+}

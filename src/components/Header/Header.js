@@ -33,6 +33,7 @@ const Header = ({ changePage }) => {
               </button>
             </li>
           </ul>
+          
         </nav>
       </div>
     </header>
