@@ -17,7 +17,7 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
                 alt={product.name}
               />
             </div>
-            <div className={styles.productCharactersContainer}>
+            <div className={styles.korzinaCharactersContainer}>
               <div className={styles.p_contrainer}>
                 <p className={styles.name}>{product.name}</p>
                 <p className={styles.price}>{product.price}₽</p>
