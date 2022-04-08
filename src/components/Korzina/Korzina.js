@@ -27,7 +27,7 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
                     <span className={styles.season_span}>{season}</span>
                   ))}
                 </p>
-                <p>Артикул: {product.id}</p>
+                <p className={styles.Articul}>Артикул: {product.id}</p>
               </div>
 
               <button
