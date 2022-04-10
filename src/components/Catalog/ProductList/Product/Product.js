@@ -16,13 +16,16 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
         <div className={styles.p_contrainer}>
           <p className={styles.name}>{product.name}</p>
           <p className={styles.price}>{product.price}₽</p>
-          <p className={styles.season}>
+          {/* <p className={styles.season}>
             <span className={styles.season_span}>Сезон:</span>
             {product.seasons.map((season) => (
               <span className={styles.season_span}>{season}</span>
             ))}
+          </p> */}
+          <p className={styles.description}>
+            <span className={styles.span_description}>Описание:   </span> 
+            {product.description}
           </p>
-          <p className={styles.description}>Описание:</p>
         </div>
 
         <button
