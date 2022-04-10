@@ -83,7 +83,7 @@
     padding-bottom: 5px;
   }
 }
-@media (min-width: 767px) {
+@media (max-width: 1200px) and (min-width: 768px) {
   .image_container {
     width: 190px;
     height: 300px; 
@@ -121,10 +121,10 @@
     padding: 10px;
   }
 }
-@media (min-width: 767px) {
+@media screen and (min-width: 1201px) {
   .image_container {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     margin-right: 50px;
   }
   .li {
@@ -149,13 +149,13 @@
     font-size: 24px;
   }
   .buttonNotAdded {
-    font-size: 16px;
+    font-size: 20px;
     background-color: gray;
-    padding: 10px;
+    padding: 12px;
   }
   .buttonAdded {
-    font-size: 16px;
+    font-size: 20px;
     background-color: rgb(83, 136, 83);
-    padding: 10px;
+    padding: 12px;
   }
 }
