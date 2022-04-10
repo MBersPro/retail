@@ -40,7 +40,7 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
           onClick={onAddToKorzina}
         >
           {added.includes(product.id) ? (
-            <span>Добавлено в корзину</span>
+            <span>Добавлено</span>
           ) : (
             <span>Добавить в корзину</span>
           )}
