@@ -47,6 +47,11 @@
     .buttonnav{
         font-size: 22px;
         width: 150px;   
+        transition: 1s; 
+    }
+    .buttonnav:hover{
+        box-shadow: 0 0 30px rgb(15, 17, 87) inset;
+        transition: 0.8s;
     }
     .ul{
         justify-content: center; 
@@ -62,7 +67,12 @@
     }
     .buttonnav{
         font-size: 24px;
-        width: 200px;   
+        width: 200px; 
+        transition: 1s;  
+    }
+    .buttonnav:hover{
+        box-shadow: 0 0 30px rgb(15, 17, 87) inset;
+        transition: 0.8s;
     }
     .ul{
         justify-content: center; 
