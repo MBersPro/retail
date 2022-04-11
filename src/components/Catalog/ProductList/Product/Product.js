@@ -1,16 +1,25 @@
 import React from "react";
 import styles from "./Product.module.css";
 
-const Product = ({ product, addToKorzina, korzina, added }) => {
+const Product = ({ product, addToKorzina, korzina, added, modalChanger }) => {
   const onAddToKorzina = () => {
     const id = product.id;
     addToKorzina(id);
   };
 
+  const onModalChanger = () => {
+    modalChanger(product.image);
+  };
+
   return (
     <li className={styles.li}>
       <div className={styles.image_container}>
-        <img className={styles.image} src={product.image} alt={product.name} />
+        <img
+          className={styles.image}
+          src={product.image[0]}
+          alt={product.name}
+          onClick={onModalChanger}
+        />
       </div>
       <div className={styles.productCharactersContainer}>
         <div className={styles.p_contrainer}>
@@ -23,7 +32,7 @@ const Product = ({ product, addToKorzina, korzina, added }) => {
             ))}
           </p> */}
           <p className={styles.description}>
-            <span className={styles.span_description}>Описание:   </span> 
+            <span className={styles.span_description}>Описание: </span>
             {product.description}
           </p>
         </div>

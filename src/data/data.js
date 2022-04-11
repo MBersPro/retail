@@ -2,8 +2,13 @@ export const data = [
   {
     name: "Бомбер Saint Lauren",
     price: 22000,
-    image: 
+    image: [
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.1.jpg?alt=media&token=743461ba-057c-4bba-ad75-14c92d8d3df1",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.2.JPG?alt=media&token=55e2cb2b-1724-4de5-9c69-cb42ad6e791e",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.3.JPG?alt=media&token=ee121763-92ec-4995-b725-0fedff85521f",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.4.JPG?alt=media&token=c8fb95d5-08e3-4e87-adc8-faa5d21a793a",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.5.JPG?alt=media&token=452adc31-cb3b-47e4-a443-05b233bf8525",
+    ],
     description:
       "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",
@@ -15,8 +20,13 @@ export const data = [
   {
     name: "Бомбер Saint Lauren",
     price: 22000,
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00002%2F00002.1.jpg?alt=media&token=f06dd111-6ac6-4008-a35b-f3016bbd0967",
+    image: [
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.1.jpg?alt=media&token=743461ba-057c-4bba-ad75-14c92d8d3df1",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.2.JPG?alt=media&token=55e2cb2b-1724-4de5-9c69-cb42ad6e791e",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.3.JPG?alt=media&token=ee121763-92ec-4995-b725-0fedff85521f",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.4.JPG?alt=media&token=c8fb95d5-08e3-4e87-adc8-faa5d21a793a",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.5.JPG?alt=media&token=452adc31-cb3b-47e4-a443-05b233bf8525",
+    ],
     description:
       "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",
@@ -28,8 +38,13 @@ export const data = [
   {
     name: "Бомбер Saint Lauren",
     price: 22000,
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00003%2F00003.1.JPG?alt=media&token=e6c6791f-c4ae-4ad9-b82b-9dba256ae536",
+    image: [
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.1.jpg?alt=media&token=743461ba-057c-4bba-ad75-14c92d8d3df1",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.2.JPG?alt=media&token=55e2cb2b-1724-4de5-9c69-cb42ad6e791e",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.3.JPG?alt=media&token=ee121763-92ec-4995-b725-0fedff85521f",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.4.JPG?alt=media&token=c8fb95d5-08e3-4e87-adc8-faa5d21a793a",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.5.JPG?alt=media&token=452adc31-cb3b-47e4-a443-05b233bf8525",
+    ],
     description:
       "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",

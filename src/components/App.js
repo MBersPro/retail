@@ -11,6 +11,7 @@ import Instructions from "./Retail/Instructions/Instructions";
 import { data } from "./../data/data";
 import AboutUs from "./AboutUs/AboutUs";
 import Benefits from "./Benefits/Benefits";
+import ModalProduct from "./ModalProduct/ModalProduct";
 
 const initialPage = {
   retail: true,
@@ -21,6 +22,9 @@ const App = () => {
   const [page, setPage] = useState({ ...initialPage });
   const [korzina, setKorzina] = useState([]);
   const [products, setProducts] = useState([...data]);
+  const [modal, setModal] = useState(false);
+  const [modalImages, setModalImages] = useState([]);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const changePage = (page) => {
     setPage({ [page]: true });
@@ -36,7 +40,30 @@ const App = () => {
 
   const deleteFromKorzina = (id) => {
     setKorzina((prev) => [...prev.filter((product) => product.id !== id)]);
-    setAdded((prev) => [...prev.filter((item) => item !== id)])
+    setAdded((prev) => [...prev.filter((item) => item !== id)]);
+  };
+
+  const modalChanger = (products) => {
+    setModalImages(products);
+    setModal(true);
+  };
+
+  const rotationRight = () => {
+    const imgNumberLenght = modalImages.length;
+    if (currentImageIndex + 1 >= imgNumberLenght) {
+      return setCurrentImageIndex(0);
+    }
+    setCurrentImageIndex((prev) => prev + 1);
+    console.log(currentImageIndex);
+  };
+
+  const rotationLeft = () => {
+    const imgNumberLenght = modalImages.length;
+    if (currentImageIndex <= 0) {
+      return setCurrentImageIndex(imgNumberLenght - 1);
+    }
+    setCurrentImageIndex((prev) => prev - 1);
+    console.log(currentImageIndex);
   };
 
   return (
@@ -53,6 +80,7 @@ const App = () => {
           products={products}
           korzina={korzina}
           added={added}
+          modalChanger={modalChanger}
         />
       )}
       {page.korzina && (
@@ -63,6 +91,14 @@ const App = () => {
       <Gradient>
         <Footer />
       </Gradient>
+      {modal && (
+        <ModalProduct
+          modalImages={modalImages}
+          currentImageIndex={currentImageIndex}
+          rotationRight={rotationRight}
+          rotationLeft={rotationLeft}
+        />
+      )}
     </>
   );
 };

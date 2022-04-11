@@ -1,0 +1,54 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1200;
+}
+
+.modal {
+     max-width: calc(100vw - 1px);
+    max-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.l {
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+}
+.r {
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+}
+.img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+/* 
+@media screen and (max-width: 767px) {
+   .img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+.modal {
+    max-width: calc(100vw - 100px);
+    max-height: calc(100vh - 100px);
+}
+} */
