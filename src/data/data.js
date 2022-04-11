@@ -2,8 +2,10 @@ export const data = [
   {
     name: "Бомбер Saint Lauren",
     price: 22000,
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.1.JPG?alt=media&token=98f73c66-cfbb-407f-8348-f215a9cd22e3",
+    image: 
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00001%2F00001.1.jpg?alt=media&token=743461ba-057c-4bba-ad75-14c92d8d3df1",
+    description:
+      "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -14,7 +16,9 @@ export const data = [
     name: "Бомбер Saint Lauren",
     price: 22000,
     image:
-      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00002%2F00002.1.JPG?alt=media&token=8ae9440d-dc40-4f0d-bfb9-12af4e97a3fa",
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00002%2F00002.1.jpg?alt=media&token=f06dd111-6ac6-4008-a35b-f3016bbd0967",
+    description:
+      "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -26,6 +30,8 @@ export const data = [
     price: 22000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00003%2F00003.1.JPG?alt=media&token=e6c6791f-c4ae-4ad9-b82b-9dba256ae536",
+    description:
+      "Спортивная модель из плотной фактурной шерсти с добавлением нейлона и отделкой из белой кожи. Манжеты, пояс и воротник из трикотажа.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -59,6 +65,8 @@ export const data = [
     price: 40000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00006%2F00006.1.JPG?alt=media&token=f51cab26-a59f-40b7-99ff-d5c0d5ca62bd",
+    description:
+      "Модель из натуральной кожи, с фирменными готическими крестами на груди слева, с молниями на рукавах и фурнитурой в виде кинжала.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -70,6 +78,8 @@ export const data = [
     price: 40000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00007%2F00007.1.JPG?alt=media&token=a289bb62-2bed-47f8-a25f-a8bfee9f753f",
+    description:
+      "Модель из натуральной кожи, с фирменными готическими крестами на груди слева, с молниями на рукавах и фурнитурой в виде кинжала.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -78,9 +88,11 @@ export const data = [
   },
   {
     name: "Кеды LV",
-    price: 15000,
+    price: 25000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00008%2F00008.1.JPG?alt=media&token=3624854d-cbe7-4b29-847a-8d0dba24fe02",
+    description:
+      "Высокие кеды ЛВ, модель Тату, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -89,9 +101,11 @@ export const data = [
   },
   {
     name: "Кеды LV",
-    price: 15000,
+    price: 25000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00009%2F00009.1.JPG?alt=media&token=8a6595d5-53f9-44f1-bdce-c3f6deb7fba3",
+    description:
+      "Высокие кеды ЛВ, модель Тату, голубой цвет, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -100,9 +114,11 @@ export const data = [
   },
   {
     name: "Кеды LV",
-    price: 15000,
+    price: 25000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00010%2F00010.1.JPG?alt=media&token=90e5d33c-16af-48d3-8974-97dd52978f3e",
+    description:
+      "Высокие кеды ЛВ, модель Тату, зеленый цвет, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -191,6 +207,8 @@ export const data = [
     price: 15000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00018%2F00018.1.jpg?alt=media&token=2abfca4b-fe83-4bee-9245-dea601ba2fd2",
+    description:
+      "Выполнены из кожи с замшевыми нашивками, подошва многослойная(каучук+резина, высота 5 см), имеет мягкую текстильную подкладку.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -199,9 +217,11 @@ export const data = [
   },
   {
     name: "Кроссовки Tom Ford",
-    price: 15000,
+    price: 25000,
     image:
       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00019%2F00019.1.jpg?alt=media&token=eafe99e2-824a-4ac6-bfd5-566588fac702",
+    description:
+      "Выполнены из прочной, мягкой иновационной эко кожи, подошва из каучука со светоотражающей окантовкой, на язычке нашивка из каучука с инициалом Гуччи.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -253,7 +273,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Зима", "Весна"],
-    type: "outerwear",
+    type: "pants",
     id: "00023",
   },
   {
@@ -266,7 +286,185 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Зима", "Весна"],
-    type: "outerwear",
+    type: "pants",
     id: "00024",
+  },
+  {
+    name: "Джоггеры Yamamoto Adidas",
+    price: 20000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00025%2F00025.1.jpeg?alt=media&token=054ce7f9-4d2e-4021-a44d-19edcf3b1805",
+    description:
+      "Модель из мягкого бархата, с эластичным поясом и манжетами внизу.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Осень", "Зима", "Весна"],
+    type: "pants",
+    id: "00025",
+  },
+  {
+    name: "Джоггеры Balenciaga",
+    price: 20000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00026%2F00026.1.jpeg?alt=media&token=ae4ecc24-3ae8-4926-b4c7-0ca788c51e2f",
+    description:
+      "Модель из плотного хлопка, с эластичным поясом, манжетами внизу, боковые карманы на молнии.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Осень", "Зима", "Весна"],
+    type: "pants",
+    id: "00026",
+  },
+  {
+    name: "Джоггеры Moncler",
+    price: 20000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00027%2F00027.1.jpeg?alt=media&token=4b147599-3726-4f77-b678-a66e97491d1c",
+    description:
+      "Модель из плотного хлопка, с эластичным поясом и манжетами внизу.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Осень", "Зима", "Весна"],
+    type: "pants",
+    id: "00027",
+  },
+  {
+    name: "Худи Off-White Jordan",
+    price: 25000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00028%2F00028.1.jpeg?alt=media&token=922b0554-7359-4a62-97d7-97e9d60fc23f",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Осень", "Весна", "Зима"],
+    type: "outerwear",
+    id: "00028",
+  },
+  {
+    name: "Пиджак Pal Zileri",
+    price: 35000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00029%2F00029.1.jpeg?alt=media&token=98322dac-5edb-4349-a050-4c3930261591",
+    description:
+      "Выполнен из шерсти с добавлением эластана, имеет защищающую от ветра съемную подстежку.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "blazer",
+    id: "00029",
+  },
+  {
+    name: "Бомбер Zegna",
+    price: 23000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00030%2F00030.1.jpeg?alt=media&token=15504754-a7d2-47d5-8fde-d3df2358bd5a",
+    description: "Выполнен из хлопка, шерсти и полиамида.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "outerwear",
+    id: "00030",
+  },
+  {
+    name: "Бомбер Zegna",
+    price: 23000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00031%2F00031.1.jpeg?alt=media&token=5ed34207-4fe3-41a9-a4c8-602f99e1ea62",
+    description: "Выполнен из хлопка, шерсти и полиамида.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "outerwear",
+    id: "00031",
+  },
+  {
+    name: "Пиджак Pal Zileri",
+    price: 35000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00035%2F00035.1.jpeg?alt=media&token=bfc51cb0-2d7f-42f2-a85b-e58e909a75f1",
+    description:
+      "Выполнен из шерсти с добавлением эластана, имеет защищающую от ветра съемную подстежку.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "blazer",
+    id: "00035",
+  },
+  {
+    name: "Джоггеры Dior",
+    price: 20000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00036%2F00036.1.jpg?alt=media&token=b6872313-1c4c-4038-8af8-0685a58fe226",
+    description:
+      "Модель из плотного хлопка, с эластичным поясом и манжетами внизу, сезон весна-лето.",
+    group: "clothes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "pants",
+    id: "00036",
+  },
+  {
+    name: "Кроссовки LV",
+    price: 23000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00037%2F00037.1.jpg?alt=media&token=58457b8b-fb54-4ce2-8bef-c2e70fccada7",
+    description:
+      "Модель Тренер, выполнены из синего денима с узором Monogram, контрастная подошва из белого каучука с логотипом LV",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "00037",
+  },
+  {
+    name: "Кроссовки LV",
+    price: 23000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00038%2F00038.1.jpg?alt=media&token=f5883a50-29dc-40a9-92c3-5fbb43053734",
+    description:
+      "Модель Тренер, выполнены из черного денима с узором Monogram, контрастная подошва из белого каучука с логотипом LV",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "00038",
+  },
+  {
+    name: "Кроссовки LV",
+    price: 25000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00038%2F00038.1.jpg?alt=media&token=f5883a50-29dc-40a9-92c3-5fbb43053734",
+    description:
+      "Коллаборация с японским дизайнером Ниго, модель Тренер, из кожи и канваса с тисненным узором Monogram, подошва из каучука с логотипом LV.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "00039",
+  },
+  {
+    name: "Кроссовки Prada",
+    price: 25000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00040%2F00040.1.JPG?alt=media&token=4f66ad7e-0a02-410a-aeb3-adf995dc570b",
+    description:
+      "Модель Микро, из нейлона и гладкой полированной кожи, на массивной резиновой подошве с фирменным логотипом.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "00040",
+  },
+  {
+    name: "Кроссовки Burberry",
+    price: 25000,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00041%2F00041.1.JPG?alt=media&token=80fb24fb-fa04-428d-9e63-fd91aef5ccbd",
+    description:
+      "Модель Артур, темно-серого цвета с фирменным клетчатым узором, протекторная подошва из матового полимера.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "00041",
   },
 ];
