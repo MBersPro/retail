@@ -1,7 +1,7 @@
 .li {
   display: flex;
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
 }
 .image {
   width: 100%;
@@ -12,17 +12,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 140px;
+  max-width: 150px;
 }
 
 .name {
+  font-size: 15px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 7px;
   font-family: "DM Sans", sans-serif;
 }
 .price {
+  text-align: center;
+  font-weight: 800;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 7px;
   font-family: "DM Sans", sans-serif;
 }
 .season {
@@ -31,9 +34,13 @@
   font-family: "DM Sans", sans-serif;
 }
 .description{
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "DM Sans", sans-serif;
+}
+.span_description {
+  font-weight: 600;
 }
 .season_span:not(:last-child) {
   margin-right: 5px;
