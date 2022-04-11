@@ -35,8 +35,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.box1 {
-  height: 97px;
+.box1 {   
   border: rgba(5, 67, 129, 1) 1px solid;
   margin-right: 7px;
 }
@@ -133,7 +132,7 @@
   .container{
     box-sizing: border-box;
     padding: 50px 15px 70px 15px;
-    width: 1200px;
+    width: 1201px;
   }
   .p {
     font-size: 24px;
