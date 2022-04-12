@@ -22,8 +22,7 @@ const App = () => {
   const [page, setPage] = useState({ ...initialPage });
   const [korzina, setKorzina] = useState([]);
   const [products, setProducts] = useState([...data]);
-  const [modal, setModal] = useState(false);
-  const [modalImages, setModalImages] = useState([]);
+  const [modalImages, setModalImages] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const changePage = (page) => {
@@ -45,8 +44,18 @@ const App = () => {
 
   const modalChanger = (products) => {
     setModalImages(products);
-    setModal(true);
   };
+
+  const modalClose = (e) => {
+    if (e.code !== "Escape") {
+      return
+    }
+    setModalImages(null)
+  }
+
+  const modalClickClose = () => {
+    setModalImages(null);
+  }
 
   const rotationRight = () => {
     const imgNumberLenght = modalImages.length;
@@ -91,12 +100,14 @@ const App = () => {
       <Gradient>
         <Footer />
       </Gradient>
-      {modal && (
+      {modalImages && (
         <ModalProduct
           modalImages={modalImages}
           currentImageIndex={currentImageIndex}
           rotationRight={rotationRight}
           rotationLeft={rotationLeft}
+          modalClose={modalClose}
+          modalClickClose={modalClickClose}
         />
       )}
     </>

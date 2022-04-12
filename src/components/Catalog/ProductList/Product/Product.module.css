@@ -64,6 +64,54 @@
   border-radius: 10px;
   font-family: "DM Sans", sans-serif;
 }
+.colorsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.black{
+  border-radius: 50%;
+  background-color: black;
+  color: red;
+  width: 17px;
+  height: 17px;
+  border: 3px solid black;
+}
+.grey{
+    border-radius: 50%;
+    background-color: grey;
+      width: 17px;
+      height: 17px;
+      border: 3px solid grey;
+}
+.green {
+  border-radius: 50%;
+  background-color: green;
+    width: 17px;
+    height: 17px;
+    border: 3px solid green;
+}
+.white {
+    border-radius: 50%;
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    border: 3px solid black;
+}
+.red {
+      border-radius: 50%;
+      background-color: red;
+      width: 17px;
+      height: 17px;
+      border: 3px solid red;
+}
+
+.yelow {
+        border-radius: 50%;
+        background-color: yellow;
+        width: 17px;
+        height: 17px;
+        border: 3px solid yellow;
+}
 @media screen and (max-width: 767px) {
   .li:not(:last-child) {
     margin-bottom: 20px;

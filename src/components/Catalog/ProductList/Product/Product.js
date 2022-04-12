@@ -1,14 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Product.module.css";
 
-const Product = ({ product, addToKorzina, korzina, added, modalChanger }) => {
+const Product = ({
+  product,
+  addToKorzina,
+  added,
+  modalChanger,
+  changeColor,
+}) => {
+  const [color, setColor] = useState(
+
+  );
+
+  const [image, setImage] = useState(
+    product.image[Object.keys(product.image)[0]]
+  );
+
   const onAddToKorzina = () => {
     const id = product.id;
     addToKorzina(id);
   };
 
   const onModalChanger = () => {
-    modalChanger(product.image);
+    modalChanger(image);
+    console.log(image)
+  };
+
+  const onChangeColor = () => {
+    changeColor();
+  };
+
+  const onImageChanger = (e) => {
+    const id = e.target.id
+    setImage(product.image[id]);
   };
 
   return (
@@ -16,7 +40,7 @@ const Product = ({ product, addToKorzina, korzina, added, modalChanger }) => {
       <div className={styles.image_container}>
         <img
           className={styles.image}
-          src={product.image[0]}
+          src={image[0]}
           alt={product.name}
           onClick={onModalChanger}
         />
@@ -25,18 +49,16 @@ const Product = ({ product, addToKorzina, korzina, added, modalChanger }) => {
         <div className={styles.p_contrainer}>
           <p className={styles.name}>{product.name}</p>
           <p className={styles.price}>{product.price}₽</p>
-          {/* <p className={styles.season}>
-            <span className={styles.season_span}>Сезон:</span>
-            {product.seasons.map((season) => (
-              <span className={styles.season_span}>{season}</span>
+          <div className={styles.colorsContainer}>
+            {Object.keys(product.image).map((color) => (
+              <div
+                id={color}
+                onClick={onImageChanger}
+                className={styles[color]}
+              ></div>
             ))}
-          </p> */}
-          <p className={styles.description}>
-            <span className={styles.span_description}>Описание: </span>
-            {product.description}
-          </p>
+          </div>
         </div>
-
         <button
           className={
             added.includes(product.id)
