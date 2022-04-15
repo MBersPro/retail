@@ -8,9 +8,7 @@ const Product = ({
   modalChanger,
   changeColor,
 }) => {
-  const [color, setColor] = useState(
-
-  );
+  const [color, setColor] = useState(Object.keys(product.image)[0]);
 
   const [image, setImage] = useState(
     product.image[Object.keys(product.image)[0]]
@@ -18,20 +16,20 @@ const Product = ({
 
   const onAddToKorzina = () => {
     const id = product.id;
-    addToKorzina(id);
+    addToKorzina(id, color);
   };
 
   const onModalChanger = () => {
     modalChanger(image);
-    console.log(image)
+    console.log(image);
   };
 
-  const onChangeColor = () => {
-    changeColor();
-  };
+  // const onChangeColor = () => {
+  //   changeColor();
+  // };
 
   const onImageChanger = (e) => {
-    const id = e.target.id
+    const id = e.target.id;
     setImage(product.image[id]);
   };
 

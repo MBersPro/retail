@@ -29,10 +29,10 @@ const App = () => {
     setPage({ [page]: true });
   };
 
-  const addToKorzina = (id) => {
+  const addToKorzina = (id, color) => {
     setKorzina((prev) => [
       ...prev,
-      { ...products.find((product) => product.id === id) },
+      { ...products.find((product) => product.id === id), color: color },
     ]);
     setAdded((prev) => [...prev, id]);
   };
@@ -48,14 +48,14 @@ const App = () => {
 
   const modalClose = (e) => {
     if (e.code !== "Escape") {
-      return
+      return;
     }
-    setModalImages(null)
-  }
+    setModalImages(null);
+  };
 
   const modalClickClose = () => {
     setModalImages(null);
-  }
+  };
 
   const rotationRight = () => {
     const imgNumberLenght = modalImages.length;
