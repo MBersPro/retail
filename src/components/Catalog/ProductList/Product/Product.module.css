@@ -72,7 +72,7 @@
   font-family: "DM Sans", sans-serif;
 }
 .buttonAdded:hover{
-  cursor: pointer;
+  cursor: not-allowed;
 }
 .colorsContainer {
   display: flex;
@@ -183,7 +183,6 @@
   .image_container {
     width: 170px;
     height: 300px; 
-    margin-right:5px;
   }
   .li {
     justify-content: center;
@@ -225,7 +224,6 @@
   .image_container {
     width: 290px;
     height: 430px;
-    margin-right:5px;
   }
   .li {
     justify-content: center;
