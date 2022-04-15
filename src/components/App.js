@@ -33,24 +33,28 @@ const App = () => {
   const addToKorzina = (id, color) => {
     setKorzina((prev) => [
       ...prev,
-      { ...products.find((product) => product.id === id), color, id: uuidv4()},
+      { ...products.find((product) => product.id === id), color: color },
     ]);
     setAdded((prev) => [...prev, { id, color }]);
     console.log(added);
-    console.log({ name: "black" });
-    console.log(added.some((item) => item === { name: "black" }));
+    console.log(korzina)
+   
   };
 
   const deleteFromKorzina = (id, color) => {
     setKorzina((prev) => [
-      ...prev.filter((product) => product.id !== id ),
+      ...prev.filter(
+        (product) => (product.id === id && product.color === color) !== true
+      ),
     ]);
     setAdded((prev) => [
-      ...prev.filter((item) => item.id !== id && item.color !== color),
+      ...prev.filter((item) => (item.id === id && item.color === color) !== true),
     ]);
 
-    console.log(korzina)
-    console.log(added)
+    console.log(korzina);
+    console.log(added);
+    console.log(color)
+     console.log(id);
   };
 
   const modalChanger = (products) => {

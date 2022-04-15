@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Product.module.css";
+import { v4 as uuidv4 } from "uuid";
 
 const Product = ({
   product,
@@ -11,8 +12,9 @@ const Product = ({
   const [color, setColor] = useState(Object.keys(product.image)[0]);
   const [colorPath, setColorPath] = useState(product.image[color]);
   const [productIdentifier, setProductIdentifier] = useState({
-    id: product.id,
+    id: uuidv4(),
     color,
+    colorPath,
   });
 
   const onAddToKorzina = () => {
