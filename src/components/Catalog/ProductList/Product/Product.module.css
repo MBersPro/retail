@@ -10,9 +10,11 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px 0px 0px 10px;
+  transition: 0.3s;
 }
 .image:hover{
   cursor: zoom-in;
+  transform: scale(1.03);
 }
 .productCharactersContainer {
   display: flex;
@@ -82,9 +84,11 @@
   width: 17px;
   height: 17px;
   border: 3px solid rgb(0, 0, 0);
+  transition: 0.3s;
 }
 .black:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 .grey{
   border-radius: 50%;
@@ -92,9 +96,11 @@
   width: 17px;
   height: 17px;
   border: 3px solid grey;
+  transition: 0.3s;
 }
 .grey:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 .green {
   border-radius: 50%;
@@ -102,9 +108,11 @@
   width: 17px;
   height: 17px;
   border: 3px solid green;
+  transition: 0.3s;
 }
 .green:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 .white {
     border-radius: 50%;
@@ -112,29 +120,35 @@
     width: 17px;
     height: 17px;
     border: 3px solid black;
+    transition: 0.3s;
 }
 .white:hover{
   cursor:pointer;
+  transform: scale(1.15);
 }
 .red {
-      border-radius: 50%;
-      background-color: rgb(193, 16, 16);
-      width: 17px;
-      height: 17px;
-      border: 3px solid rgb(193, 16, 16);
+  border-radius: 50%;
+  background-color: rgb(119, 16, 16);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(119, 16, 16);
+  transition: 0.3s;
 }
 .red:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 .yellow {
-        border-radius: 50%;
-        background-color: rgb(228, 228, 28);
-        width: 17px;
-        height: 17px;
-        border: 3px solid rgb(228, 228, 28);
+  border-radius: 50%;
+  background-color: rgb(191, 191, 57);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(191, 191, 57);
+  transition: 0.3s;
 }
-.yellow{
+.yellow:hover{
   cursor: pointer;
+  transform: scale(1.15);
 }
 @media screen and (max-width: 767px) {
   .li:not(:last-child) {

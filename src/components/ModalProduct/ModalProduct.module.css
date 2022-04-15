@@ -12,17 +12,15 @@
 }
 
 .modal {
-     max-width: calc(100vw - 1px);
+    max-width: calc(100vw - 1px);
     max-height: calc(100vh - 100px);
     display: flex;
     align-items: center;
-    
 }
 .right{
     fill: rgb(255, 255, 255);
     padding: 0;
     position: absolute;
-    top: 47.4%;    
     right: 0;
     cursor: pointer;
 }
@@ -30,13 +28,8 @@
     fill: rgb(255, 255, 255);
     padding: 0;
     cursor: pointer;
-    position: absolute;
-    top: 47.4%;    
+    position: absolute; 
     left: 0;
-}
-.imageContainer{
-    width: 350px;
-    height: 250px;
 }
 .img {
     width: 100%;
@@ -48,8 +41,6 @@
 }
 .close {
     position: absolute;
-    top: 15px;
-    right:15px;
     display: flex;
     width: 50px;
     height: 50px;
@@ -57,14 +48,12 @@
     align-items: center;
     transition: 1s;
     border: none;
-    background-color: #67a29800;
 }
 
 @media screen and (max-width: 767px) {
 .imageContainer{
     width: 350px;
-    height: 450px;
-    
+    height: 450px; 
 }
 .modal{
     position: relative;
@@ -89,12 +78,19 @@
 .close{
     background-color: #00000060;
     border-radius: 50%;
+    top: 6px;
+    right:6px;
 }
 }
 @media (max-width: 1200px) and (min-width: 768px) {
     .imageContainer{
         width: 550px;
         height: 650px;
+    }
+    .close{
+        top: 15px;
+        right:15px;
+        background-color: #67a29800;
     }
     .close:hover .svgClose {
         fill: #000000;
@@ -103,7 +99,7 @@
         background: #ffffff;
         border-radius: 50%;
         transition: 0.5s;
-      } 
+    } 
     .left:active{
         fill: rgb(255, 255, 255);
         background-color: #0000007f;
@@ -114,11 +110,22 @@
         background-color: #0000007f;
         border-radius: 50%;
     }
+    .right{
+        top: 47.4%;
+    }
+    .left{
+        top: 47.4%;
+    }
 }
 @media screen and (min-width: 1201px) {
     .imageContainer{
         width: 650px;
         height: 750px;
+    }
+    .close{
+        top: 15px;
+        right:15px;
+        background-color: #67a29800;
     }
     .close:hover .svgClose {
         fill: #000000;
@@ -138,5 +145,11 @@
         fill: rgb(255, 255, 255);
         background-color: #0000007f;
         border-radius: 50%;
+    }
+    .right{
+        top: 47.4%;
+    }
+    .left{
+        top: 47.4%;
     }
 }
