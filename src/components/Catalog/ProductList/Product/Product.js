@@ -9,10 +9,11 @@ const Product = ({
   changeColor,
 }) => {
   const [color, setColor] = useState(Object.keys(product.image)[0]);
-
-  const [image, setImage] = useState(
-    product.image[Object.keys(product.image)[0]]
-  );
+  const [colorPath, setColorPath] = useState(product.image[color]);
+  const [productIdentifier, setProductIdentifier] = useState({
+    id: product.id,
+    color,
+  });
 
   const onAddToKorzina = () => {
     const id = product.id;
@@ -20,17 +21,13 @@ const Product = ({
   };
 
   const onModalChanger = () => {
-    modalChanger(image);
-    console.log(image);
+    modalChanger(colorPath);
   };
 
-  // const onChangeColor = () => {
-  //   changeColor();
-  // };
-
   const onImageChanger = (e) => {
-    const id = e.target.id;
-    setImage(product.image[id]);
+    const color = e.target.id;
+    setColorPath(product.image[color]);
+    setColor(color);
   };
 
   return (
@@ -38,7 +35,7 @@ const Product = ({
       <div className={styles.image_container}>
         <img
           className={styles.image}
-          src={image[0]}
+          src={colorPath[0]}
           alt={product.name}
           onClick={onModalChanger}
         />
@@ -59,16 +56,28 @@ const Product = ({
         </div>
         <button
           className={
-            added.includes(product.id)
+            added.some((element) => {
+              if (element.id === product.id && element.color === color) {
+                return true;
+              }
+            })
               ? styles.buttonAdded
               : styles.buttonNotAdded
           }
-          disabled={added.includes(product.id)}
+          disabled={added.some((element) => {
+            if (element.id === product.id && element.color === color) {
+              return true;
+            }
+          })}
           type="button"
           id={product.id}
           onClick={onAddToKorzina}
         >
-          {added.includes(product.id) ? (
+          {added.some((element) => {
+            if (element.id === product.id && element.color === color) {
+              return true;
+            }
+          }) ? (
             <span>Добавлено</span>
           ) : (
             <span>Добавить в корзину</span>

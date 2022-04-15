@@ -12,6 +12,7 @@ import { data } from "./../data/data";
 import AboutUs from "./AboutUs/AboutUs";
 import Benefits from "./Benefits/Benefits";
 import ModalProduct from "./ModalProduct/ModalProduct";
+import { v4 as uuidv4 } from "uuid";
 
 const initialPage = {
   retail: true,
@@ -32,14 +33,24 @@ const App = () => {
   const addToKorzina = (id, color) => {
     setKorzina((prev) => [
       ...prev,
-      { ...products.find((product) => product.id === id), color: color },
+      { ...products.find((product) => product.id === id), color, id: uuidv4()},
     ]);
-    setAdded((prev) => [...prev, id]);
+    setAdded((prev) => [...prev, { id, color }]);
+    console.log(added);
+    console.log({ name: "black" });
+    console.log(added.some((item) => item === { name: "black" }));
   };
 
-  const deleteFromKorzina = (id) => {
-    setKorzina((prev) => [...prev.filter((product) => product.id !== id)]);
-    setAdded((prev) => [...prev.filter((item) => item !== id)]);
+  const deleteFromKorzina = (id, color) => {
+    setKorzina((prev) => [
+      ...prev.filter((product) => product.id !== id ),
+    ]);
+    setAdded((prev) => [
+      ...prev.filter((item) => item.id !== id && item.color !== color),
+    ]);
+
+    console.log(korzina)
+    console.log(added)
   };
 
   const modalChanger = (products) => {

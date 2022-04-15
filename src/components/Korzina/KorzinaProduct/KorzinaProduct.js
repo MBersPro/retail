@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from "./KorzinaProduct.module.css"
 
 const KorzinaProduct = ({ product, deleteFromKorzina }) => {
+
+    const [image, setImage] = useState(
+        product.image[product.color]
+    )
+
   const onDeleteFromKorzina = (e) => {
     const id = e.target.id;
     deleteFromKorzina(id);
@@ -9,11 +14,7 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
   return (
     <li className={styles.li}>
       <div className={styles.image_container}>
-        <img
-          className={styles.image}
-          src={product.image[product.color][0]}
-          alt={product.name}
-        />
+        <img className={styles.image} src={image[0]} alt={product.name} />
       </div>
       <div className={styles.korzinaCharactersContainer}>
         <div className={styles.p_contrainer}>
@@ -25,7 +26,6 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
               <span className={styles.season_span}>{season}</span>
             ))}
           </p>
-          <p className={styles.Articul}>Артикул: {product.id}</p>
         </div>
 
         <button
