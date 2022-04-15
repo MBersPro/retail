@@ -104,10 +104,10 @@
     padding-bottom: 17px;
     font-size: 24px;
     width: 350px;
-    transition: 1s;
+    transition: 0.7s;
   }
   .button:hover{
       box-shadow: 0 0 15px rgb(255, 255, 255) inset;
-      transition: 0.8s;
+      transition: 0.5s;
   }
 }

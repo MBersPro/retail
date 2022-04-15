@@ -23,6 +23,9 @@
     padding: 0;
 
 }
+.buttonnav:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 767px) {
     .container{
         box-sizing: border-box;
@@ -68,11 +71,11 @@
     .buttonnav{
         font-size: 24px;
         width: 200px; 
-        transition: 1s;  
+        transition: 2s;  
     }
     .buttonnav:hover{
         box-shadow: 0 0 30px rgb(15, 17, 87) inset;
-        transition: 0.8s;
+        transition: 1.2s;
     }
     .ul{
         justify-content: center; 

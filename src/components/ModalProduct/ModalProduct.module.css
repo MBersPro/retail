@@ -2,11 +2,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
-
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1200;
@@ -17,42 +16,127 @@
     max-height: calc(100vh - 100px);
     display: flex;
     align-items: center;
-    position: relative;
+    
 }
-
-.l {
-    font-size: 50px;
-    color: white;
-    padding: 30px;
+.right{
+    fill: rgb(255, 255, 255);
+    padding: 0;
     position: absolute;
+    top: 47.4%;    
+    right: 0;
+    cursor: pointer;
+}
+.left {
+    fill: rgb(255, 255, 255);
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 47.4%;    
     left: 0;
 }
-.r {
-    font-size: 50px;
-    color: white;
-    padding: 30px;
-    position: absolute;
-    right: 0;
+.imageContainer{
+    width: 350px;
+    height: 250px;
 }
 .img {
     width: 100%;
-    max-height: 400px;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+}
+.svgClose{
+    fill: #ffffff;
 }
 .close {
     position: absolute;
-    top: 0;
-}
-/* 
-@media screen and (max-width: 767px) {
-   .img {
-width: 100%;
-height: 100%;
-object-fit: contain;
+    top: 15px;
+    right:15px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    border: none;
+    background-color: #67a29800;
 }
 
-.modal {
-    max-width: calc(100vw - 100px);
-    max-height: calc(100vh - 100px);
+@media screen and (max-width: 767px) {
+.imageContainer{
+    width: 350px;
+    height: 450px;
+    
 }
-} */
+.modal{
+    position: relative;
+    min-width: 350px;
+}
+
+.right{
+    top: 200px;
+    fill: rgb(255, 255, 255);
+    right: 4px;
+    background-color: #0000007f;
+    border-radius: 50%;
+}
+.left {
+    top: 200px;
+    fill: rgb(255, 255, 255);
+    background-color: #0000007f;
+    border-radius: 50%;
+    left: 4px;
+}
+
+.close{
+    background-color: #00000060;
+    border-radius: 50%;
+}
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+    .imageContainer{
+        width: 550px;
+        height: 650px;
+    }
+    .close:hover .svgClose {
+        fill: #000000;
+      }
+    .close:hover {
+        background: #ffffff;
+        border-radius: 50%;
+        transition: 0.5s;
+      } 
+    .left:active{
+        fill: rgb(255, 255, 255);
+        background-color: #0000007f;
+        border-radius: 50%;
+    }
+    .right:active{
+        fill: rgb(255, 255, 255);
+        background-color: #0000007f;
+        border-radius: 50%;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .imageContainer{
+        width: 650px;
+        height: 750px;
+    }
+    .close:hover .svgClose {
+        fill: #000000;
+      }
+    .close:hover {
+        background: #ffffff;
+        border-radius: 50%;
+        transition: 0.5s;
+        cursor: pointer;
+      } 
+    .left:active{
+        fill: rgb(255, 255, 255);
+        background-color: #0000007f;
+        border-radius: 50%;
+    }
+    .right:active{
+        fill: rgb(255, 255, 255);
+        background-color: #0000007f;
+        border-radius: 50%;
+    }
+}

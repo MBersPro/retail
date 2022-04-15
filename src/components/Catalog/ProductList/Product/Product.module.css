@@ -1,32 +1,38 @@
 .li {
   display: flex;
   list-style: none;
-  /* text-align: center; */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4),
+  0px 6px 10px rgba(138, 138, 138, 0.2);
+  border-radius: 10px;
 }
 .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+.image:hover{
+  cursor: zoom-in;
 }
 .productCharactersContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 150px;
 }
 
 .name {
-  font-size: 15px;
   margin-top: 0;
   margin-bottom: 7px;
   font-family: "DM Sans", sans-serif;
+  text-align: center;
 }
 .price {
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 7px;
   font-family: "DM Sans", sans-serif;
+
 }
 .season {
   margin-top: 0;
@@ -34,7 +40,6 @@
   font-family: "DM Sans", sans-serif;
 }
 .description{
-  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   font-family: "DM Sans", sans-serif;
@@ -48,47 +53,58 @@
 }
 
 .buttonNotAdded {
-  font-size: 14px;
   background-color: gray;
   color: white;
   border: none;
   border-radius: 10px;
   font-family: "DM Sans", sans-serif;
 }
-
+.buttonNotAdded{
+  cursor: pointer;
+}
 .buttonAdded {
-  font-size: 14px;
   background-color: rgb(83, 136, 83);
   color: white;
   border: none;
   border-radius: 10px;
   font-family: "DM Sans", sans-serif;
 }
+.buttonAdded:hover{
+  cursor: pointer;
+}
 .colorsContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 .black{
   border-radius: 50%;
   background-color: black;
-  color: red;
   width: 17px;
   height: 17px;
-  border: 3px solid black;
+  border: 3px solid rgb(0, 0, 0);
+}
+.black:hover{
+  cursor: pointer;
 }
 .grey{
-    border-radius: 50%;
-    background-color: grey;
-      width: 17px;
-      height: 17px;
-      border: 3px solid grey;
+  border-radius: 50%;
+  background-color: grey;
+  width: 17px;
+  height: 17px;
+  border: 3px solid grey;
+}
+.grey:hover{
+  cursor: pointer;
 }
 .green {
   border-radius: 50%;
   background-color: green;
-    width: 17px;
-    height: 17px;
-    border: 3px solid green;
+  width: 17px;
+  height: 17px;
+  border: 3px solid green;
+}
+.green:hover{
+  cursor: pointer;
 }
 .white {
     border-radius: 50%;
@@ -97,20 +113,28 @@
     height: 17px;
     border: 3px solid black;
 }
+.white:hover{
+  cursor:pointer;
+}
 .red {
       border-radius: 50%;
-      background-color: red;
+      background-color: rgb(193, 16, 16);
       width: 17px;
       height: 17px;
-      border: 3px solid red;
+      border: 3px solid rgb(193, 16, 16);
 }
-
-.yelow {
+.red:hover{
+  cursor: pointer;
+}
+.yellow {
         border-radius: 50%;
-        background-color: yellow;
+        background-color: rgb(228, 228, 28);
         width: 17px;
         height: 17px;
-        border: 3px solid yellow;
+        border: 3px solid rgb(228, 228, 28);
+}
+.yellow{
+  cursor: pointer;
 }
 @media screen and (max-width: 767px) {
   .li:not(:last-child) {
@@ -122,6 +146,7 @@
   }
   .productCharactersContainer {
     max-width: 140px;
+    padding: 5px;
   }
   .li {
     justify-content: space-around;
@@ -130,34 +155,40 @@
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 5px;
   }
   
   .buttonAdded {
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 5px;
   }
 }
 @media (max-width: 1200px) and (min-width: 768px) {
   .image_container {
-    width: 190px;
+    width: 170px;
     height: 300px; 
-    margin-right: 50px;
+    margin-right:5px;
   }
   .li {
     justify-content: center;
+    max-height:300px;
   }
   .li:not(:last-child){
     margin-bottom: 30px;
   }
   .productCharactersContainer {
     max-width: 180px;
+    padding: 5px;
   }
   .name {
     font-size: 22px;
+    margin-bottom: 20px;
   }
   .price {
     font-size: 22px;
+    margin-bottom: 50px;
   }
   .season {
     font-size: 22px;
@@ -178,24 +209,28 @@
 }
 @media screen and (min-width: 1201px) {
   .image_container {
-    width: 250px;
-    height: 350px;
-    margin-right: 50px;
+    width: 290px;
+    height: 430px;
+    margin-right:5px;
   }
   .li {
     justify-content: center;
+    max-height:430px;
   }
   .li:not(:last-child){
     margin-bottom: 30px;
   }
   .productCharactersContainer {
     max-width: 210px;
+    padding: 5px;
   }
   .name {
     font-size: 24px;
+    margin-bottom: 20px;
   }
   .price {
     font-size: 24px;
+    margin-bottom: 60px;
   }
   .season {
     font-size: 24px;
@@ -212,5 +247,30 @@
     font-size: 20px;
     background-color: rgb(83, 136, 83);
     padding: 12px;
+  }
+  .black{
+    width: 25px;
+    height: 25px;
+  }
+  .grey{
+    width: 25px;
+    height: 25px;
+  }
+  .green {
+    width: 25px;
+    height: 25px;
+  }
+  .white {
+    width: 25px;
+    height: 25px;
+  }
+  .red {
+        width: 25px;
+        height: 25px;
+  }
+  
+  .yellow {
+          width: 25px;
+          height: 25px;
   }
 }
