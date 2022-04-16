@@ -9,7 +9,7 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
 
   const onDeleteFromKorzina = (e) => {
     const id = e.target.id;
-    deleteFromKorzina(id);
+    deleteFromKorzina(product.id, product.color);
   };
   return (
     <li className={styles.li}>
