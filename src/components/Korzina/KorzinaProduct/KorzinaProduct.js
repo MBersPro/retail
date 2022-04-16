@@ -1,18 +1,14 @@
-import React, {useState} from 'react';
-import styles from "./KorzinaProduct.module.css"
+import React, { useState } from "react";
+import styles from "./KorzinaProduct.module.css";
 
 const KorzinaProduct = ({ product, deleteFromKorzina }) => {
-
-    const [image, setImage] = useState(
-        product.image[product.color]
-    )
+  const [image, setImage] = useState(product.image[product.color]);
 
   const onDeleteFromKorzina = (e) => {
-    const id = e.target.id;
     deleteFromKorzina(product.id, product.color);
   };
   return (
-    <li className={styles.li}>
+    <>
       <div className={styles.image_container}>
         <img className={styles.image} src={image[0]} alt={product.name} />
       </div>
@@ -31,7 +27,7 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
           Удалить из корзины
         </button>
       </div>
-    </li>
+    </>
   );
 };
 

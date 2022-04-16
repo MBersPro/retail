@@ -36,9 +36,6 @@ const App = () => {
       { ...products.find((product) => product.id === id), color: color },
     ]);
     setAdded((prev) => [...prev, { id, color }]);
-    console.log(added);
-    console.log(korzina)
-   
   };
 
   const deleteFromKorzina = (id, color) => {
