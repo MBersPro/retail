@@ -107,23 +107,11 @@ export const data = [
     id: "0004",
   },
   // {
-  //   name: "Кожаная куртка Chrome Hearts",
-  //   price: 40000,
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00007%2F00007.1.JPG?alt=media&token=a289bb62-2bed-47f8-a25f-a8bfee9f753f",
-  //   description:
-  //     "Модель из натуральной кожи, с фирменными готическими крестами на груди слева, с молниями на рукавах и фурнитурой в виде кинжала.",
-  //   group: "clothes",
-  //   sex: "male",
-  //   seasons: ["Осень", "Весна"],
-  //   type: "outerwear",
-  //   id: "00007",
-  // },
-  // {
   //   name: "Кеды LV",
   //   price: 25000,
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00008%2F00008.1.JPG?alt=media&token=3624854d-cbe7-4b29-847a-8d0dba24fe02",
+  //   image: 
+  //       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00008%2F00008.1.JPG?alt=media&token=3624854d-cbe7-4b29-847a-8d0dba24fe02"
+  //   ,
   //   description:
   //     "Высокие кеды ЛВ, модель Тату, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
   //   group: "shoes",

@@ -2,22 +2,23 @@ import React from "react";
 import styles from "./Korzina.module.css";
 import KorzinaProduct from "./KorzinaProduct/KorzinaProduct";
 const Korzina = ({ korzina, deleteFromKorzina }) => {
-
   return (
     <main className={styles.container}>
       <ul className={styles.ul}>
         {korzina.map((product) => (
-          <KorzinaProduct
-            product={product}
-            deleteFromKorzina={deleteFromKorzina}
-          />
+          <li key={`${product.id}${product.color}`} className={styles.li}>
+            <KorzinaProduct
+              product={product}
+              deleteFromKorzina={deleteFromKorzina}
+            />
+          </li>
         ))}
       </ul>
       <div>
         <p className={styles.pInstruction}>
           Для того, чтобы осуществить заказ,
           <br />
-          свяжитесь с наши менеджером любым 
+          свяжитесь с наши менеджером любым
           <br />
           удобным для вас способом и <br />
           назовите ему артукул тех товаров,
