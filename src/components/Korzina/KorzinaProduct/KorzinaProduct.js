@@ -20,12 +20,6 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
         <div className={styles.p_contrainer}>
           <p className={styles.name}>{product.name}</p>
           <p className={styles.price}>{product.price}₽</p>
-          <p className={styles.season}>
-            <span className={styles.season_span}>Сезон:</span>
-            {product.seasons.map((season) => (
-              <span className={styles.season_span}>{season}</span>
-            ))}
-          </p>
         </div>
 
         <button
