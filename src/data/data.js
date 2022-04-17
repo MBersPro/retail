@@ -106,33 +106,53 @@ export const data = [
     type: "outerwear",
     id: "0004",
   },
-  // {
-  //   name: "Кеды LV",
-  //   price: 25000,
-  //   image: 
-  //       "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00008%2F00008.1.JPG?alt=media&token=3624854d-cbe7-4b29-847a-8d0dba24fe02"
-  //   ,
-  //   description:
-  //     "Высокие кеды ЛВ, модель Тату, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
-  //   group: "shoes",
-  //   sex: "male",
-  //   seasons: ["Осень", "Весна"],
-  //   type: "sneakers",
-  //   id: "00008",
-  // },
-  // {
-  //   name: "Кеды LV",
-  //   price: 25000,
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00009%2F00009.1.JPG?alt=media&token=8a6595d5-53f9-44f1-bdce-c3f6deb7fba3",
-  //   description:
-  //     "Высокие кеды ЛВ, модель Тату, голубой цвет, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
-  //   group: "shoes",
-  //   sex: "male",
-  //   seasons: ["Осень", "Весна"],
-  //   type: "sneakers",
-  //   id: "00009",
-  // },
+
+  {
+    name: "Кеды LV",
+    price: 25000,
+    image: {
+      brown: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0005%2Fgrey%2F0005.br.1.JPG?alt=media&token=a968d749-a245-4756-a6a2-3cb63898e176",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0005%2Fgrey%2F0005.br.2.JPG?alt=media&token=aeb7ceed-2896-4082-b1ea-393a19ccb275",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0005%2Fgrey%2F0005.br.3.JPG?alt=media&token=88f50c26-dfa1-4a5a-b965-bc0da2f65a23",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0005%2Fgrey%2F0005.br.4.JPG?alt=media&token=b462c18f-34a1-4f68-9daa-c556f3a1b9b5",
+      ],
+    },
+    description:
+      "Высокие кеды ЛВ, модель Тату, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Осень", "Весна"],
+    type: "sneakers",
+    id: "0005",
+  },
+  {
+    name: "Кеды LV",
+    price: 25000,
+    image: {
+      blue: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.1.JPG?alt=media&token=19e0dafa-8c95-40cc-a6c4-79bfefd33c67",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.2.JPG?alt=media&token=bc709ea9-f9ff-4714-ada5-947f21b2ca64",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.3.JPG?alt=media&token=d25c6de8-70cc-47d4-819c-1fbaee2cddf7",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.4.JPG?alt=media&token=7a186d88-02f9-4057-bcd3-c69b4d62efb1",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.5.JPG?alt=media&token=22e8f475-2946-40cc-93d7-da95d8efb067",
+      ],
+      green: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fgreen%2F0006.gr.1.JPG?alt=media&token=e7747fb9-b1b6-46cd-ae18-f77bebbffcce",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fgreen%2F0006.gr.2.JPG?alt=media&token=137a0112-b6a8-4c9c-b122-de98ced43ec8",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fgreen%2F0006.gr.3.JPG?alt=media&token=445735dd-eece-48f2-81a3-59058175a87a",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fgreen%2F0006.gr.4.JPG?alt=media&token=c66fa7e2-eb25-4dec-b863-a37d4f9d746d",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fgreen%2F0006.gr.5.JPG?alt=media&token=f9877104-782e-4912-afa1-c47e1c37d837",
+      ],
+    },
+    description:
+      "Высокие кеды ЛВ, модель Тату, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Осень", "Весна"],
+    type: "sneakers",
+    id: "0006",
+  },
   // {
   //   name: "Кеды LV",
   //   price: 25000,

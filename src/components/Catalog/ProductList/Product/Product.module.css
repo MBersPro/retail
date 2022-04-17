@@ -150,6 +150,31 @@
   cursor: pointer;
   transform: scale(1.15);
 }
+.brown {
+  border-radius: 50%;
+  background-color: #783c00;
+  width: 17px;
+  height: 17px;
+  border: 3px solid #783c00;
+  transition: 0.3s;
+}
+.brown:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.blue {
+  border-radius: 50%;
+  background-color: blue;
+  width: 17px;
+  height: 17px;
+  border: 3px solid blue;
+  transition: 0.3s;
+}
+.blue:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
 @media screen and (max-width: 767px) {
   .li:not(:last-child) {
     margin-bottom: 20px;
