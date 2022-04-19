@@ -150,6 +150,31 @@
   cursor: pointer;
   transform: scale(1.15);
 }
+.brown {
+  border-radius: 50%;
+  background-color: rgb(120, 60, 0);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(120, 60, 0);
+  transition: 0.3s;
+}
+.brown:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.blue {
+  border-radius: 50%;
+  background-color: rgb(0, 0, 255);
+  width: 17px;
+  height: 17px;
+  border: 3px solid rgb(0, 0, 255);
+  transition: 0.3s;
+}
+.blue:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
 @media screen and (max-width: 767px) {
   .li:not(:last-child) {
     margin-bottom: 20px;
@@ -280,9 +305,17 @@
         width: 25px;
         height: 25px;
   }
-  
   .yellow {
           width: 25px;
           height: 25px;
+  }
+  .brown {
+    width: 25px;
+    height: 25px;
+  }
+    
+  .blue {
+    width: 25px;
+    height: 25px;
   }
 }
