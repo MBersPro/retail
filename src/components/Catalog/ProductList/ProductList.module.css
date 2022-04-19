@@ -27,7 +27,7 @@
     }
     .container{
         box-sizing: border-box;
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         max-width: 450px;
         min-width: 350px;
     }
@@ -39,7 +39,7 @@
         justify-content: space-between;
     }
     .container{
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         width: 768px;
     }
     .li {
@@ -59,7 +59,7 @@
         justify-content: space-between;
     }
     .container{
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         width: 1200px;
     }
     .li {
