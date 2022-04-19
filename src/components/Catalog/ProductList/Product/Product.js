@@ -33,7 +33,7 @@ const Product = ({
   };
 
   return (
-    <li className={styles.li}>
+    <>
     <div className={styles.divImageAndTxt}>
       <div className={styles.image_container}>
         <img
@@ -90,7 +90,8 @@ const Product = ({
           )}
         </button>
         </div>
-    </li>
+    </>
+
   );
 };
 

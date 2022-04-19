@@ -45,13 +45,15 @@ const App = () => {
       ),
     ]);
     setAdded((prev) => [
-      ...prev.filter((item) => (item.id === id && item.color === color) !== true),
+      ...prev.filter(
+        (item) => (item.id === id && item.color === color) !== true
+      ),
     ]);
 
     console.log(korzina);
     console.log(added);
-    console.log(color)
-     console.log(id);
+    console.log(color);
+    console.log(id);
   };
 
   const modalChanger = (products) => {
@@ -87,6 +89,14 @@ const App = () => {
     console.log(currentImageIndex);
   };
 
+  const setFilter = (value) => {
+    if (value === "all") {
+      setProducts([...data]);
+    } else {
+      setProducts([...data.filter((product) => product.type === value)]);
+    }
+  };
+
   return (
     <>
       <Gradient>
@@ -102,6 +112,7 @@ const App = () => {
           korzina={korzina}
           added={added}
           modalChanger={modalChanger}
+          setFilter={setFilter}
         />
       )}
       {page.korzina && (

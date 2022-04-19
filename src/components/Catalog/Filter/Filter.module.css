@@ -10,3 +10,9 @@
 width: 100%;
 
 }
+.ul{
+    display: flex;
+}
+.li{
+    list-style: none;
+}

@@ -54,7 +54,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
-    type: "outerwear",
+    type: "clothes",
     id: "0002",
   },
   {
@@ -74,7 +74,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна"],
-    type: "outerwear",
+    type: "clothes",
     id: "0003",
   },
   {
@@ -180,7 +180,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна", "Зима"],
-    type: "suit",
+    type: "clothes",
     id: "0007",
   },
   {
@@ -392,7 +392,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Зима", "Весна"],
-    type: "outerwear",
+    type: "clothes",
     id: "0015",
   },
   {
@@ -429,7 +429,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Зима", "Весна"],
-    type: "outerwear",
+    type: "clothes",
     id: "0017",
   },
   {
@@ -557,7 +557,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Весна", "Зима"],
-    type: "outerwear",
+    type: "clothes",
     id: "0023",
   },
   {
@@ -588,7 +588,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Весна", "Лето"],
-    type: "blazer",
+    type: "clothes",
     id: "0024",
   },
   {
@@ -648,7 +648,7 @@ export const data = [
     group: "clothes",
     sex: "male",
     seasons: ["Весна", "Лето"],
-    type: "blazer",
+    type: "clothes",
     id: "0026",
   },
   {
