@@ -1,10 +1,8 @@
-
-
 .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 0px;
 }
 
 .korzinaCharactersContainer {
@@ -43,23 +41,24 @@
 .btnDel {
     color: white;
     background-color: rgb(176, 11, 11);
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     border: none;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "DM Sans", sans-serif;
+    width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-
-
     .image_container {
         width: 150px;
         height: 225px;
     }
-
+    .divImageAndTxt{
+        display: flex;
+    }
     .korzinaCharactersContainer {
-        max-width: 140px;
+        width: 140px;
         padding: 5px;
     }
     .Articul{
@@ -90,18 +89,18 @@
 }
 
 @media (max-width: 1200px) and (min-width: 768px) {
-
-
     .image_container {
         width: 170px;
         height: 300px;
     }
 
     .korzinaCharactersContainer {
-        max-width: 180px;
+        width: 180px;
         padding: 5px;
     }
-
+    .divImageAndTxt{
+        display: flex;
+    }
     .name {
         font-size: 22px;
     }
@@ -117,6 +116,7 @@
     .btnDel {
         font-size: 16px;
         padding: 10px;
+        width: 100%;
     }
     .Articul{
         font-size: 22px;
@@ -124,38 +124,39 @@
 }
 
 @media screen and (min-width: 1201px) {
-
-
     .image_container {
-        width: 290px;
-        height: 430px;
+        width: 220px;
+        height: 300px;
     }
-
+    .divImageAndTxt{
+        display: flex;
+    }
     .korzinaCharactersContainer {
-        max-width: 210px;
+        width: 140px;
         padding: 5px;
     }
 
     .name {
-        font-size: 24px;
+        font-size: 23px;
     }
     
     .price {
-        font-size: 24px;
+        font-size: 23px;
     }
     
     .season {
-        font-size: 24px;
+        font-size: 23px;
     }
     
     .btnDel {
         font-size: 20px;
         padding: 12px;
+        width: 100%;
     }
     .btnDel:hover{
         cursor: pointer;
     }
     .Articul{
-        font-size: 24px;
+        font-size: 23px;
     }
 }

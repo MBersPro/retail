@@ -34,6 +34,7 @@ const Product = ({
 
   return (
     <li className={styles.li}>
+    <div className={styles.divImageAndTxt}>
       <div className={styles.image_container}>
         <img
           className={styles.image}
@@ -56,7 +57,10 @@ const Product = ({
             ))}
           </div>
         </div>
-        <button
+      </div>
+    </div>
+    <div className={styles.divBtn}>
+      <button
           className={
             added.some((element) => {
               if (element.id === product.id && element.color === color) {
@@ -85,7 +89,7 @@ const Product = ({
             <span>Добавить в корзину</span>
           )}
         </button>
-      </div>
+        </div>
     </li>
   );
 };

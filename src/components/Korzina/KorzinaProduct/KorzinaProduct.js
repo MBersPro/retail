@@ -9,6 +9,7 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
   };
   return (
     <>
+    <div className={styles.divImageAndTxt}>
       <div className={styles.image_container}>
         <img className={styles.image} src={image[0]} alt={product.name} />
       </div>
@@ -17,7 +18,9 @@ const KorzinaProduct = ({ product, deleteFromKorzina }) => {
           <p className={styles.name}>{product.name}</p>
           <p className={styles.price}>{product.price}₽</p>
         </div>
-
+    </div>
+    </div>
+    <div className={styles.divBtn}>
         <button
           className={styles.btnDel}
           type="button"
