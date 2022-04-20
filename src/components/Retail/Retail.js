@@ -2,11 +2,11 @@ import React from "react";
 import Logo from "./Logo/Logo";
 import StoreExclusive from "./StoreExclusive/StoreExclusive";
 
-const Retail = () => {
+const Retail = ({ changePage, setFilter }) => {
   return (
     <main>
       <Logo />
-      <StoreExclusive />
+      <StoreExclusive changePage={changePage} setFilter={setFilter} />
     </main>
   );
 };
