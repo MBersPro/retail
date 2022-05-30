@@ -10,9 +10,7 @@ import Instructions from "./Retail/Instructions/Instructions";
 
 import { data } from "./../data/data";
 import AboutUs from "./AboutUs/AboutUs";
-import Benefits from "./Benefits/Benefits";
 import ModalProduct from "./ModalProduct/ModalProduct";
-import { v4 as uuidv4 } from "uuid";
 
 const initialPage = {
   retail: true,
