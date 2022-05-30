@@ -99,7 +99,9 @@ const App = () => {
     <>
       <Gradient>
         <Header changePage={changePage} />
-        {page.retail && <Retail />}
+        {page.retail && (
+          <Retail changePage={changePage} setFilter={setFilter} />
+        )}
       </Gradient>
       {page.retail && <AboutUs changePage={changePage} />}
       {/* {page.retail && <Benefits/>} */}

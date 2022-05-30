@@ -6,6 +6,7 @@
   padding: 0;
   /* text-align: center; */
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .Articul{
@@ -72,18 +73,20 @@
   text-align: center;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4),
     0px 6px 10px rgba(138, 138, 138, 0.2);
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 @media screen and (max-width: 767px) {
 
-      .li {
-        justify-content: space-around;
-      }
+  .li {
+    justify-content: space-around;
+    display: block;
+
+  }
       
-      .li:not(:last-child) {
-        margin-bottom: 20px;
-      }
+  .li:not(:last-child) {
+    margin-bottom: 20px;
+  }
   .container {
     box-sizing: border-box;
     max-width: 450px;
@@ -118,14 +121,15 @@
   }
 }
 @media (max-width: 1200px) and (min-width: 768px) {
-      .li {
-        justify-content: center;
-        max-height: 300px;
-      }
+    .li {
+      justify-content: center;
+      height: 338px;
+      display: block;
+    }
       
-      .li:not(:last-child) {
-        margin-bottom: 30px;
-      }
+    .li:not(:last-child) {
+      margin-bottom: 30px;
+    }
   .container{
     padding: 30px 15px 30px 15px;
     width: 768px;
@@ -133,7 +137,7 @@
   .ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
   .Articul{
     font-size: 22px;
@@ -156,14 +160,15 @@
 }
 @media screen and (min-width: 1201px) {
 
-      .li {
-        justify-content: center;
-        max-height: 430px;
-      }
+  .li {
+    justify-content: center;
+    display: block;
+    max-height: 300px;
+  }
       
-      .li:not(:last-child) {
-        margin-bottom: 30px;
-      }
+  .li:not(:last-child) {
+    margin-bottom: 30px;
+  }
   .container{
     padding: 30px 15px 30px 15px;
     width: 1201px;
@@ -174,21 +179,21 @@
     justify-content: space-around;
 }
   .pInstruction {
-    font-size: 24px;
+    font-size: 23px;
   }
   .Articul{
-    font-size: 24px;
+    font-size: 23px;
   }
   .aTelegram {
-    font-size: 24px;
+    font-size: 23px;
     width: 60%;
   }
   .aWhatsApp {
     width: 60%;
-    font-size: 24px;
+    font-size: 23px;
   }
   .aNumber {
-    font-size: 24px;
+    font-size: 23px;
     width: 60%;
   }
 }

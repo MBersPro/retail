@@ -17,6 +17,7 @@
 }
 @media screen and (max-width: 767px) {
     .li:not(:last-child) {
+        display: block;
         margin-bottom: 20px;
     }
     .ul{
@@ -26,7 +27,7 @@
     }
     .container{
         box-sizing: border-box;
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         max-width: 450px;
         min-width: 350px;
     }
@@ -38,12 +39,13 @@
         justify-content: space-between;
     }
     .container{
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         width: 768px;
     }
     .li {
         justify-content: center;
-        max-height: 300px;
+        display: block;
+        max-height: 337px;
     }
     
     .li:not(:last-child) {
@@ -54,15 +56,16 @@
     .ul{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .container{
-        padding: 30px 15px 30px 15px;
+        padding: 15px 15px 30px 15px;
         width: 1200px;
     }
     .li {
         justify-content: center;
-        max-height: 430px;
+        max-height: 300px;
+        display: block;
     }
     
     .li:not(:last-child) {
