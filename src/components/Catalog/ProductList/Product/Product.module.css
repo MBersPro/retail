@@ -173,6 +173,19 @@
   cursor: pointer;
   transform: scale(1.15);
 }
+
+.orange {
+  border-radius: 50%;
+  background-color: orange;
+  width: 17px;
+  height: 17px;
+  border: 3px solid orange;
+  transition: 0.3s;
+}
+.orange:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
 @media screen and (max-width: 767px) {
 
   .image_container {

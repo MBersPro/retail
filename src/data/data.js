@@ -712,19 +712,6 @@ export const data = [
     type: "sneakers",
     id: "0030",
   },
-  // {
-  //   name: "Кроссовки LV",
-  //   price: 25000,
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F00038%2F00038.1.jpg?alt=media&token=f5883a50-29dc-40a9-92c3-5fbb43053734",
-  //   description:
-  //     "Коллаборация с японским дизайнером Ниго, модель Тренер, из кожи и канваса с тисненным узором Monogram, подошва из каучука с логотипом LV.",
-  //   group: "shoes",
-  //   sex: "male",
-  //   seasons: ["Весна", "Лето"],
-  //   type: "sneakers",
-  //   id: "00039",
-  // },
   {
     name: "Кроссовки Prada",
     price: 25000,
@@ -762,5 +749,170 @@ export const data = [
     seasons: ["Весна", "Лето"],
     type: "sneakers",
     id: "0032",
+  },
+  {
+    name: "Кроссовки DG",
+    price: 22000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Fblack%2F0033.bb.1.jpg?alt=media&token=7f440096-cea3-4b3a-bda5-180a34419394",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Fblack%2F0033.bb.2.jpg?alt=media&token=6b7c4d62-f646-4512-b563-88cd2703cfce",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Fblack%2F0033.bb.3.jpg?alt=media&token=f127a41a-0d9a-487f-b406-2daccabc8250",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Fblack%2F0033.bb.4.jpg?alt=media&token=04e36d2d-ae56-4da9-9d48-f52a91d3a557",
+      ],
+      orange: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Forange%2F0033.or.1.jpg?alt=media&token=32221c97-7158-4f99-bed0-5b88e529fb5b",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Forange%2F0033.or.2.jpg?alt=media&token=513bbf7e-26ef-4060-b231-23f8c1cfc395",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Forange%2F0033.or.3.jpg?alt=media&token=95cbd9bb-cfec-4ca4-b732-6b7df4fd0824",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Forange%2F0033.or.4.jpg?alt=media&token=b7780c93-6cec-47e3-aa48-04a9f52b86f9",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0033%2Forange%2F0033.or.5.jpg?alt=media&token=3ae11e0b-5330-4f64-b62f-ca8a442f6666",
+      ],
+    },
+    description:
+      "Модель Дэймастер, выполнены из нейлона, замши и гладкой кожи, на ярко-оранжевой резиновой подошве.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0033",
+  },
+  {
+    name: "Кроссовки DG",
+    price: 23000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fblack%2F0034.bb.1.jpg?alt=media&token=42c117e0-52de-4cf6-9684-a8e6c7ad402e",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fblack%2F0034.bb.2.jpg?alt=media&token=78c00031-5503-4209-8da8-fbb15cb543b1",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fblack%2F0034.bb.3.jpg?alt=media&token=357b6b7e-52b5-46a8-ade8-3611ca6f32c1",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fblack%2F0034.bb.4.jpg?alt=media&token=a71ad9ef-4305-473b-9e8f-db9e7cd5f6c4",
+      ],
+      red: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fred%2F0034.re.1.jpg?alt=media&token=a877055c-6c43-4c6a-b62b-1492e1dbd6d4",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fred%2F0034.re.2.jpg?alt=media&token=2a500e06-edf9-41b1-94b0-1c596da106ba",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fred%2F0034.re.3.jpg?alt=media&token=1623ee9c-8a4c-4546-8ef3-b3d7e9b31d33",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0034%2Fred%2F0034.re.4.jpg?alt=media&token=0a67b2b8-b090-4f1e-b106-37f400101d28",
+      ],
+    },
+    description:
+      "Кеды DG,  модель CUSTOM 2 ZERO, красно-белого цвета, выполнены из гладкой кожи, замши, текстиля, на полупрозрачной подошве, на заднике крупные инициалы бренда.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0034",
+  },
+  {
+    name: "Кроссовки GIVENCHY",
+    price: 22000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fblack%2F0035.bb.1.jpg?alt=media&token=609f20ae-95b0-4522-9bcd-dbe7a6faf6dc",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fblack%2F0035.bb.2.jpg?alt=media&token=1a689974-757f-402b-8ade-138d62c0dc39",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fblack%2F0035.bb.3.jpg?alt=media&token=d78f6da8-bf52-4936-8d72-935c0858ec09",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fblack%2F0035.bb.4.jpg?alt=media&token=dff82d68-d4b0-44b0-a904-f39fd18caf57",
+      ],
+      green: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fgreen%2F0035.gr.1.jpg?alt=media&token=6bd4164c-5d7b-4f69-89a9-4a7da1a00127",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fgreen%2F0035.gr.2.jpg?alt=media&token=3b516a21-be75-4b50-bebc-f4e1def280de",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fgreen%2F0035.gr.3.jpg?alt=media&token=7195f3ab-b646-466f-909a-f65c21756f5c",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0035%2Fgreen%2F0035.gr.4.jpg?alt=media&token=9c1b959e-bb6a-4df3-a702-7d14f367c770",
+      ],
+    },
+    description:
+      "Модель GIV RUNNER, выполнены из нейлона, гладкой кожи и замши, на протекторной подошве из полимера.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0035",
+  },
+  {
+    name: "Кроссовки LV",
+    price: 22000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fblack%2F0036.bb.1.jpg?alt=media&token=2f906c06-b94b-453f-808a-659c17593abc",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fblack%2F0036.bb.2.jpg?alt=media&token=06395c16-87ff-441d-81c8-5ac2acb6e0e1",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fblack%2F0036.bb.3.jpg?alt=media&token=b783b40c-765a-4609-be86-057467ed8fac",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fblack%2F0036.bb.4.jpg?alt=media&token=ceac6b65-073f-4ada-af33-7bc61b7b70c8",
+      ],
+      white: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fwhite%2F0036.ww.1.jpg?alt=media&token=99d4dd44-a5d9-490d-8194-aca27e98d3a6",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fwhite%2F0036.ww.2.jpg?alt=media&token=17191170-311b-428c-8e94-d6d5e79ba85a",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fwhite%2F0036.ww.3.jpg?alt=media&token=fa33b30b-32c2-43e5-a502-1512831e02de",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0036%2Fwhite%2F0036.ww.4.jpg?alt=media&token=1d7f96c0-81a3-4334-a94c-feb2e9003da8",
+      ],
+    },
+    description:
+      "Модель RUNNER TATIC, черно-серого цвета, выполнены из сетчатого текстиля, замши и вставками из высокотехнологичных материалов, на каучуковой подошве.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0036",
+  },
+  {
+    name: "Кроссовки SALVATORE FERRAGAMOV",
+    price: 20000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0037%2Fbrown%2F0037.br.1.jpg?alt=media&token=db0d820f-952c-4efb-95dd-9d59ae594f3f",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0037%2Fbrown%2F0037.br.2.jpg?alt=media&token=4902cf58-88df-477f-98a0-a6bceb78fe19",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0037%2Fbrown%2F0037.br.3.jpg?alt=media&token=0a095562-2449-45e6-bffc-8be10848f52a",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0037%2Fbrown%2F0037.br.4.jpg?alt=media&token=c0577a25-b2a8-45d2-8147-fa3646549e4a",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0037%2Fbrown%2F0037.br.5.jpg?alt=media&token=937a7eef-2054-42c3-9b2c-aa55e3e1b6f5",
+      ],
+    },
+    description:
+      "Модель GANCINI, выполнены из кожи, на подошве из полимера, с инициалом бренда сбоку.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0037",
+  },
+  {
+    name: "Кеды YOHJI YAMAMOTO",
+    price: 18000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0038%2Fblack%2F0038.bb.1.jpg?alt=media&token=68de0f4a-f335-404e-805d-f151de672cc3",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0038%2Fblack%2F0038.bb.2.jpg?alt=media&token=89adce43-be03-4d8c-8d21-f4752b57e929",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0038%2Fblack%2F0038.bb.3.jpg?alt=media&token=719d48bb-c452-458a-b929-87c158037225",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0038%2Fblack%2F0038.bb.4.jpg?alt=media&token=8ec0122a-303e-48ac-947d-480924655465",
+      ],
+    },
+    description: "Сделаны из текстиля, на эффектной резиновой подошве.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0038",
+  },
+  {
+    name: "Кеды XVESSEL",
+    price: 15000,
+    image: {
+      black: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fblack%2F0039.bb.1.jpg?alt=media&token=4908256b-ecb3-451f-ac7e-2592a156d990",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fblack%2F0039.bb.2.jpg?alt=media&token=b87cf10d-59b9-4835-9220-337513221671",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fblack%2F0039.bb.3.jpg?alt=media&token=61add13b-03b1-4607-8cf7-c0ecad345883",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fblack%2F0039.bb.4.jpg?alt=media&token=1d38be46-fe55-4224-8701-a8831483eeab",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fblack%2F0039.bb.5.jpg?alt=media&token=b9d18f2c-7c0a-46ea-9e4d-c08f5e0176a2",
+      ],
+      red: [
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fred%2F0039.re.1.jpg?alt=media&token=c6a25d2a-299b-47fa-b540-38ed299ca891",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fred%2F0039.re.2.jpg?alt=media&token=9d9bf214-6980-4537-a8bd-59acb25f327f",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fred%2F0039.re.3.jpg?alt=media&token=09931e9b-0be9-49b2-b199-1856156e25f2",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fred%2F0039.re.4.jpg?alt=media&token=b5e0e572-26e2-4e32-a9e3-82dcff1e156d",
+        "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0039%2Fred%2F0039.re.5.jpg?alt=media&token=cd336cb2-da80-422e-8b5a-9df696575f41",
+      ],
+    },
+    description: "Сделаны из текстиля, на резиновой подошве.",
+    group: "shoes",
+    sex: "male",
+    seasons: ["Весна", "Лето"],
+    type: "sneakers",
+    id: "0039",
   },
 ];
