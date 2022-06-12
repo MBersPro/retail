@@ -68,7 +68,7 @@ const App = () => {
   const modalClickClose = () => {
     setModalImages(null);
   };
-
+  
   const rotationRight = () => {
     const imgNumberLenght = modalImages.length;
     if (currentImageIndex + 1 >= imgNumberLenght) {
@@ -131,6 +131,7 @@ const App = () => {
           rotationLeft={rotationLeft}
           modalClose={modalClose}
           modalClickClose={modalClickClose}
+          products={products}
         />
       )}
     </>

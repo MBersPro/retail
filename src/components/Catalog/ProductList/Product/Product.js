@@ -7,10 +7,11 @@ const Product = ({
   added,
   modalChanger,
   changeColor,
+  gggw
 }) => {
   const [color, setColor] = useState(Object.keys(product.image)[0]);
   const [colorPath, setColorPath] = useState(product.image[color]);
-
+  const [description, setDescription] = useState(false)
   const onAddToKorzina = () => {
     const id = product.id;
     addToKorzina(id, color);
@@ -25,7 +26,21 @@ const Product = ({
     setColorPath(product.image[color]);
     setColor(color);
   };
-
+  const funcdOpen = () => {
+    setDescription(true)
+  }
+  const funcdClose = () => {
+    setDescription(false)
+  }
+  const OpenStyle = {
+    transform: 'scale(1)',
+  }
+  const CloseStyle = {
+    transform: 'scale(0)'
+  }
+  const styleValue = description ? OpenStyle : CloseStyle
+  console.log(styleValue)
+  console.log(description)
   return (
     <>
     <div className={styles.divImageAndTxt}>
@@ -50,7 +65,13 @@ const Product = ({
               ></div>
             ))}
           </div>
+          <div className={styles.descriptionModal} style={styleValue}>
+              <button onClick={funcdClose}>close</button>
+              <p className={styles.descriptionTxt}>{product.description}</p>
+          </div>
+            <button onClick={funcdOpen}>Open</button>
         </div>
+          
       </div>
     </div>
     <div className={styles.divBtn}>

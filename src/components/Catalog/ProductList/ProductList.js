@@ -20,6 +20,7 @@ const ProductList = ({
               korzina={korzina}
               added={added}
               modalChanger={modalChanger}
+              products={products}
             />
           </li>
         ))}

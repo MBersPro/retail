@@ -11,6 +11,7 @@ const ModalProduct = ({
   rotationLeft,
   modalClose,
   modalClickClose,
+  products
 }) => {
   useEffect(() => {
     window.addEventListener("keydown", modalClose);
