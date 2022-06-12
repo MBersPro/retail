@@ -16,7 +16,6 @@
 }
 @media screen and (max-width: 767px) {
     .li:not(:last-child) {
-        display: block;
         margin-bottom: 20px;
     }
     .ul{
