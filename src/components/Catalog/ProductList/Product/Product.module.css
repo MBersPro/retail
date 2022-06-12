@@ -56,6 +56,7 @@
   font-family: "DM Sans", sans-serif;
   width: 100%;
   border-radius: 0px 0px 10px 10px;
+  height: 100%;
 }
 .buttonNotAdded:hover{
   cursor: pointer;
@@ -68,6 +69,7 @@
   font-family: "DM Sans", sans-serif;
   width: 100%;
   border-radius: 0px 0px 10px 10px;
+  height: 100%;
 }
 .buttonAdded:hover{
   cursor: not-allowed;
@@ -195,6 +197,7 @@
   .productCharactersContainer {
     width: 140px;
     padding: 5px;
+    position: relative;
   }
   .divImageAndTxt{
     display: flex;
@@ -213,10 +216,41 @@
     padding-bottom: 5px;
     border-radius: 0px 0px 5px 5px;
   }
-  .descriptionContainer{
-    width: 300px;
-    height: 500px;
-    background-color: black;
+  .descriptionModal{
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    left: -2px;
+  }
+  .btnBackModalDescription{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+  .descriptionTxt{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .btnOpenModalDescription{
+    color: black;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .btnOpenModalDescriptionContainer{
+    text-align: center;
   }
 }
 @media (max-width: 1200px) and (min-width: 768px) {
@@ -234,6 +268,7 @@
   .productCharactersContainer {
     width: 180px;
     padding: 5px;
+    position: relative;
   }
   .name {
     font-size: 22px;
@@ -258,6 +293,42 @@
     font-size: 16px;
     background-color: rgb(83, 136, 83);
     padding: 10px;
+  }
+  .descriptionModal{
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    left: -2px;
+  }
+  .btnBackModalDescription{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+  .descriptionTxt{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .btnOpenModalDescription{
+    color: black;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  .btnOpenModalDescriptionContainer{
+    text-align: center;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -330,43 +401,38 @@
     width: 25px;
     height: 25px;
   }
-  .descriptionContainer{
-    display: none;
-    position: absolute;
-    overflow: auto;
-    width: 165px;
-    height: 50px;
-    text-align: center;
-    background-color: gray;
-    overflow: auto;
-  }
   .descriptionModal{
     height: 100%;
     overflow: auto;
     position: absolute;
-    background-color: rgb(42, 44, 44);
+    background-color: rgb(255, 255, 255);
     top: 0;
-    transition: 0.5s;
-    color: white;
-    text-align: center;
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    left: -2px;
   }
   .btnBackModalDescription{
     background-color: rgba(240, 248, 255, 0);
     border: none;
     padding: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
   }
   .descriptionTxt{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
   }
   .btnOpenModalDescription{
-    
+    color: black;
     background-color: rgba(240, 248, 255, 0);
     border: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
   }
   .btnOpenModalDescriptionContainer{
     text-align: center;

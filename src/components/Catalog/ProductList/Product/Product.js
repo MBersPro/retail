@@ -34,9 +34,11 @@ const Product = ({
   }
   const OpenStyle = {
     transform: 'scale(1)',
+    transition: '0.6s'
   }
   const CloseStyle = {
-    transform: 'scale(0)'
+    transform: 'scale(0)',
+    transition: '0.2s'
   }
   const styleValue = description ? OpenStyle : CloseStyle
   console.log(styleValue)
@@ -56,7 +58,6 @@ const Product = ({
           <div className={styles.p_contrainer}>
             <p className={styles.name}>{product.name}</p>
             <p className={styles.price}>{product.price}₽</p>
-            <p>{product.description}</p>
             <div className={styles.colorsContainer}>
               {Object.keys(product.image).map((color) => (
                 <div
@@ -68,10 +69,10 @@ const Product = ({
             </div>
           </div>
           <div className={styles.descriptionModal} style={styleValue}>
-              <button onClick={funcdClose}>close</button>
+              <button onClick={funcdClose} className={styles.btnBackModalDescription}>Назад</button>
               <p className={styles.descriptionTxt}>{product.description}</p>
           </div>
-            <button onClick={funcdOpen}>Open</button>
+            <button onClick={funcdOpen} className={styles.btnOpenModalDescription}>Описание</button>
         </div>
           
       </div>
