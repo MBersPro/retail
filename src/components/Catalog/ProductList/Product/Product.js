@@ -72,7 +72,9 @@ const Product = ({
               <button onClick={funcdClose} className={styles.btnBackModalDescription}>Назад</button>
               <p className={styles.descriptionTxt}>{product.description}</p>
           </div>
+          <div className={styles.btnOpenModalDescriptionContainer}>
             <button onClick={funcdOpen} className={styles.btnOpenModalDescription}>Описание</button>
+          </div>
         </div>
           
       </div>
