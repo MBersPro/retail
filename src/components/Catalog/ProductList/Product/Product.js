@@ -43,27 +43,29 @@ const Product = ({
   console.log(description)
   return (
     <>
-    <div className={styles.divImageAndTxt}>
-      <div className={styles.image_container}>
-        <img
-          className={styles.image}
-          src={colorPath[0]}
-          alt={product.name}
-          onClick={onModalChanger}
-        />
-      </div>
-      <div className={styles.productCharactersContainer}>
-        <div className={styles.p_contrainer}>
-          <p className={styles.name}>{product.name}</p>
-          <p className={styles.price}>{product.price}₽</p>
-          <div className={styles.colorsContainer}>
-            {Object.keys(product.image).map((color) => (
-              <div
-                id={color}
-                onClick={onImageChanger}
-                className={styles[color]}
-              ></div>
-            ))}
+      <div className={styles.divImageAndTxt}>
+        <div className={styles.image_container}>
+          <img
+            className={styles.image}
+            src={colorPath[0]}
+            alt={product.name}
+            onClick={onModalChanger}
+          />
+        </div>
+        <div className={styles.productCharactersContainer}>
+          <div className={styles.p_contrainer}>
+            <p className={styles.name}>{product.name}</p>
+            <p className={styles.price}>{product.price}₽</p>
+            <p>{product.description}</p>
+            <div className={styles.colorsContainer}>
+              {Object.keys(product.image).map((color) => (
+                <div
+                  id={color}
+                  onClick={onImageChanger}
+                  className={styles[color]}
+                ></div>
+              ))}
+            </div>
           </div>
           <div className={styles.descriptionModal} style={styleValue}>
               <button onClick={funcdClose}>close</button>
@@ -73,9 +75,8 @@ const Product = ({
         </div>
           
       </div>
-    </div>
-    <div className={styles.divBtn}>
-      <button
+      <div className={styles.divBtn}>
+        <button
           className={
             added.some((element) => {
               if (element.id === product.id && element.color === color) {
@@ -107,9 +108,8 @@ const Product = ({
             <span>Добавить в корзину</span>
           )}
         </button>
-        </div>
+      </div>
     </>
-
   );
 };
 

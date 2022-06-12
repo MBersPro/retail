@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./Header/Header";
 import Gradient from "./Reused/Gradient/Gradient";
 import Catalog from "./Catalog/Catalog";
@@ -16,6 +16,8 @@ const initialPage = {
   retail: true,
 };
 
+const tele = window.Telegram.WebApp
+
 const App = () => {
   const [added, setAdded] = useState([]);
   const [page, setPage] = useState({ ...initialPage });
@@ -23,6 +25,10 @@ const App = () => {
   const [products, setProducts] = useState([...data]);
   const [modalImages, setModalImages] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    tele.ready()
+  })
 
   const changePage = (page) => {
     setPage({ [page]: true });
@@ -93,6 +99,9 @@ const App = () => {
     } else {
       setProducts([...data.filter((product) => product.type === value)]);
     }
+
+
+
   };
 
   return (
