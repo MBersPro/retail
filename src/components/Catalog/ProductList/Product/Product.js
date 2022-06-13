@@ -75,6 +75,7 @@ const Product = ({
           <div className={styles.btnOpenModalDescriptionContainer}>
             <button onClick={funcdOpen} className={styles.btnOpenModalDescription}>Описание</button>
           </div>
+          
         </div>
           
       </div>
