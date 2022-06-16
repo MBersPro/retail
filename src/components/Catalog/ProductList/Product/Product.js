@@ -41,8 +41,6 @@ const Product = ({
     transition: '0.2s'
   }
   const styleValue = description ? OpenStyle : CloseStyle
-  console.log(styleValue)
-  console.log(description)
   return (
     <>
       <div className={styles.divImageAndTxt}>
