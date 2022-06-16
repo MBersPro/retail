@@ -39,13 +39,15 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
   const sendMessage = (e) => {
     e.preventDefault();
     let message = `Заявка от: ${formState.name}\nПредпочтительный способ связи: ${formState.comWay}\nНомер телефона: ${formState.number}\nЗаказал:\n${korzina.map((product, index) => `${index + 1}. ${product.name} Цвет:${product.color} Цена:${product.price}\n`)}`;
-    console.log(message);
     setFormState({ ...initialState });
     axios.post(URI_API, {
           chat_id: CHAT_ID,
           parse_mode: 'html',
           text: message
          })
+    .then(() =>  {
+      alert("Заявка была успешно отправлена")
+    })
   };
 
   return (
@@ -61,32 +63,9 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
         ))}
       </ul>
       <div>
-        <p className={styles.pInstruction}>
-          Для того, чтобы осуществить заказ,
-          <br />
-          свяжитесь с наши менеджером любым
-          <br />
-          удобным для вас способом и <br />
-          назовите ему артукул тех товаров,
-          <br />
-          которые хотите приобрести.
-          <br />
-        </p>
-        <div className={styles.divA}>
-          <a
-            href="tg://resolve?domain=retail_manager"
-            className={styles.aTelegram}
-          >
-            Telegram
-          </a>
-          <a href="https://wa.me/79688588238" className={styles.aWhatsApp}>
-            WhatsApp
-          </a>
-          <a href="tel:+79688588238" className={styles.aNumber}>
-            +79688588238
-          </a>
-        </div>
+      
         <div className={styles.korzina_orderingContainer}>
+        <p className={styles.korzina_orderingTitle}>Оформление заказа</p>
         <form onSubmit={sendMessage} className={styles.korzina_orderingForm}>
         <div className={styles.korzina_orderingForm_inputContainer}>  
         <p className={styles.korzina_orderingForm_inputName}>Имя</p>
@@ -99,7 +78,7 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
           />
         </div>
         <div className={styles.korzina_orderingForm_inputContainer}> 
-        <p className={styles.korzina_orderingForm_inputName}>Способ связи</p>
+        <p className={styles.korzina_orderingForm_inputName}>Предпочтительный<br/>способ связи</p>
       <div className={styles.korzina_orderingForm_radioInputsContainer}>
         <div className={styles.korzina_orderingForm_radioInputContainer}>
           <input
@@ -123,7 +102,7 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
         </div>
         <div className={styles.korzina_orderingForm_radioInputContainer}>
           <input
-            value=""
+            value="Звонок"
             onChange={onHandleChange}
             name="comWay"
             type="radio"
@@ -150,8 +129,13 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
           </button>
         </div>  
         </form>
+        
         </div>
-      
+        <p className={styles.korzina_instruction}>
+          После оформления заказа<br/>
+          с вами свяжется менеджер<br/>
+          для уточнения всех деталей
+        </p>
       </div>
     </main>
   );
