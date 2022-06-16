@@ -134,12 +134,8 @@
   .korzina_orderingForm_inputContainer:not(:last-child){
     margin-bottom: 15px;
   }
-  .korzina_orderingForm_inputContainer:last-child{
-    margin-bottom: 150px;
-  }
   .korzina_orderingForm{
     display: inline-block;
-    /* text-align: center; */
     padding: 15px;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     border-radius: 5px;
@@ -168,9 +164,29 @@
     display: flex;
     justify-content: center;
   }
+  .korzina_orderingForm_radioInput{
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 10px;
+  }
   .korzina_orderingContainer{
     display: flex;
     justify-content: center;
+  }
+  .korzina_orderingForm_radioInputsContainer{
+    display: block;
+  }
+  .korzina_orderingForm_radioInputContainer:not(:last-child){
+    margin-bottom: 2px;
+  }
+  .korzina_orderingForm_radioInputContainer{
+    display: flex;
+    align-items: center;
+  }
+  .korzina_orderingFormInputLabel{
+    font-size: 20px;
   }
 }
 @media (max-width: 1200px) and (min-width: 768px) {
@@ -225,12 +241,8 @@
   .korzina_orderingForm_inputContainer:not(:last-child){
     margin-bottom: 15px;
   }
-  .korzina_orderingForm_inputContainer:last-child{
-    margin-bottom: 150px;
-  }
   .korzina_orderingForm{
     display: inline-block;
-    /* text-align: center; */
     padding: 15px;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     border-radius: 5px;
@@ -244,7 +256,7 @@
   }
   .korzina_orderingBtn{
     width: 230px;
-    font-size: 24px;
+    font-size: 20px;
     height: 40px;
     padding: 0;
     font-family: "Roboto", sans-serif;
@@ -259,10 +271,31 @@
     display: flex;
     justify-content: center;
   }
+  .korzina_orderingForm_radioInput{
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 10px;
+  }
   .korzina_orderingContainer{
     display: flex;
     justify-content: center;
   }
+  .korzina_orderingForm_radioInputsContainer{
+    display: block;
+  }
+  .korzina_orderingForm_radioInputContainer:not(:last-child){
+    margin-bottom: 2px;
+  }
+  .korzina_orderingForm_radioInputContainer{
+    display: flex;
+    align-items: center;
+  }
+  .korzina_orderingFormInputLabel{
+    font-size: 20px;
+  }
+  
 }
 @media screen and (min-width: 1201px) {
 
@@ -317,12 +350,8 @@
   .korzina_orderingForm_inputContainer:not(:last-child){
     margin-bottom: 15px;
   }
-  .korzina_orderingForm_inputContainer:last-child{
-    margin-bottom: 150px;
-  }
   .korzina_orderingForm{
     display: inline-block;
-    /* text-align: center; */
     padding: 15px;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     border-radius: 5px;
@@ -351,8 +380,28 @@
     display: flex;
     justify-content: center;
   }
+  .korzina_orderingForm_radioInput{
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 10px;
+  }
   .korzina_orderingContainer{
     display: flex;
     justify-content: center;
+  }
+  .korzina_orderingForm_radioInputsContainer{
+    display: block;
+  }
+  .korzina_orderingForm_radioInputContainer:not(:last-child){
+    margin-bottom: 2px;
+  }
+  .korzina_orderingForm_radioInputContainer{
+    display: flex;
+    align-items: center;
+  }
+  .korzina_orderingFormInputLabel{
+    font-size: 20px;
   }
 }

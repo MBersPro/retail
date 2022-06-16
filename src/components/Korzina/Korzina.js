@@ -100,13 +100,38 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
         </div>
         <div className={styles.korzina_orderingForm_inputContainer}> 
         <p className={styles.korzina_orderingForm_inputName}>Способ связи</p>
+      <div className={styles.korzina_orderingForm_radioInputsContainer}>
+        <div className={styles.korzina_orderingForm_radioInputContainer}>
           <input
-            value={formState.comWay}
+            value="Telegram"
             onChange={onHandleChange}
             name="comWay"
-            type="text"
-            className={styles.korzina_orderingForm_input}
+            type="radio"
+            className={styles.korzina_orderingForm_radioInput}
           />
+          <label className={styles.korzina_orderingFormInputLabel}>Telegram</label>
+          </div> 
+        <div className={styles.korzina_orderingForm_radioInputContainer}>
+          <input
+            value="WhatsApp"
+            onChange={onHandleChange}
+            name="comWay"
+            type="radio"
+            className={styles.korzina_orderingForm_radioInput}
+          />
+          <label className={styles.korzina_orderingFormInputLabel}>WhatsApp</label>
+        </div>
+        <div className={styles.korzina_orderingForm_radioInputContainer}>
+          <input
+            value=""
+            onChange={onHandleChange}
+            name="comWay"
+            type="radio"
+            className={styles.korzina_orderingForm_radioInput}
+          />
+          <label className={styles.korzina_orderingFormInputLabel}>Звонок</label>
+        </div>
+        </div> 
         </div>
         <div className={styles.korzina_orderingForm_inputContainer}>
           <p className={styles.korzina_orderingForm_inputName}>Номер телефона</p>
@@ -117,7 +142,8 @@ const Korzina = ({ korzina, deleteFromKorzina }) => {
             type="text"
             className={styles.korzina_orderingForm_input}
           />
-        </div>  
+      
+      </div> 
         <div className={styles.korzina_orderingBtnContainer}>
           <button className={styles.korzina_orderingBtn} type="submit">
             Оформить заказ
