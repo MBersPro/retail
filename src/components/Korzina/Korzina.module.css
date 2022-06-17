@@ -99,26 +99,92 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-  .Articul{
-    font-size: 15px;
-  }
-  .pInstruction {
-    font-size: 18px;
-  }
-  .aTelegram {
-    font-size: 15px;
-    width: 70%;
-  }
   
-  .aWhatsApp {
-    width: 70%;
-    font-size: 15px;
-  }
+/* /////////////////////////////////////////////////////////// */
+.korzina_instruction{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.korzina_orderingForm_input{
+  width: 250px;
+  height: 40px;
+  padding-right: 0;
+  padding-left: 7px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.korzina_orderingForm_inputContainer:not(:last-child){
+  margin-bottom: 15px;
+}
+.korzina_orderingForm{
+  display: inline-block;
+  padding: 15px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 5px;
+}
+.korzina_orderingForm_inputName{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.korzina_orderingBtn{
+  width: 230px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #d2d1d8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
   
-  .aNumber {
-    font-size: 15px;
-    width: 70%;
-  }
+}
+.korzina_orderingBtnContainer{
+  display: flex;
+  justify-content: center;
+}
+.korzina_orderingForm_radioInput{
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.korzina_orderingContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.korzina_orderingTitle{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.korzina_orderingForm_radioInputsContainer{
+  display: block;
+}
+.korzina_orderingForm_radioInputContainer:not(:last-child){
+  margin-bottom: 2px;
+}
+.korzina_orderingForm_radioInputContainer{
+  display: flex;
+  align-items: center;
+}
+.korzina_orderingFormInputLabel{
+  font-size: 20px;
+}
 }
 @media (max-width: 1200px) and (min-width: 768px) {
     .li {
@@ -139,24 +205,91 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-  .Articul{
-    font-size: 22px;
-  }
-  .pInstruction {
-    font-size: 22px;
-  }
-  .aTelegram {
-    font-size: 22px;
-    width: 60%;
-  }
-  .aWhatsApp {
-    width: 60%;
-    font-size: 22px;
-  }
-  .aNumber {
-    font-size: 22px;
-    width: 60%;
-  }
+.korzina_instruction{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.korzina_orderingForm_input{
+  width: 250px;
+  height: 40px;
+  padding-right: 0;
+  padding-left: 7px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.korzina_orderingForm_inputContainer:not(:last-child){
+  margin-bottom: 15px;
+}
+.korzina_orderingForm{
+  display: inline-block;
+  padding: 15px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 5px;
+}
+.korzina_orderingForm_inputName{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.korzina_orderingBtn{
+  width: 230px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #d2d1d8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.korzina_orderingBtnContainer{
+  display: flex;
+  justify-content: center;
+}
+.korzina_orderingForm_radioInput{
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.korzina_orderingContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.korzina_orderingTitle{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.korzina_orderingForm_radioInputsContainer{
+  display: block;
+}
+.korzina_orderingForm_radioInputContainer:not(:last-child){
+  margin-bottom: 2px;
+}
+.korzina_orderingForm_radioInputContainer{
+  display: flex;
+  align-items: center;
+}
+.korzina_orderingFormInputLabel{
+  font-size: 20px;
+}
+  
 }
 @media screen and (min-width: 1201px) {
 
@@ -178,22 +311,89 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-  .pInstruction {
-    font-size: 23px;
+
+  .korzina_instruction{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0;
   }
-  .Articul{
-    font-size: 23px;
+
+  .korzina_orderingForm_input{
+    width: 250px;
+    height: 40px;
+    padding-right: 0;
+    padding-left: 7px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
   }
-  .aTelegram {
-    font-size: 23px;
-    width: 60%;
+  .korzina_orderingForm_inputContainer:not(:last-child){
+    margin-bottom: 15px;
   }
-  .aWhatsApp {
-    width: 60%;
-    font-size: 23px;
+  .korzina_orderingForm{
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border-radius: 5px;
   }
-  .aNumber {
-    font-size: 23px;
-    width: 60%;
+  .korzina_orderingForm_inputName{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  .korzina_orderingBtn{
+    width: 230px;
+    font-size: 20px;
+    height: 40px;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #d2d1d8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  .korzina_orderingBtnContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .korzina_orderingForm_radioInput{
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .korzina_orderingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .korzina_orderingTitle{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .korzina_orderingForm_radioInputsContainer{
+    display: block;
+  }
+  .korzina_orderingForm_radioInputContainer:not(:last-child){
+    margin-bottom: 2px;
+  }
+  .korzina_orderingForm_radioInputContainer{
+    display: flex;
+    align-items: center;
+  }
+  .korzina_orderingFormInputLabel{
+    font-size: 20px;
   }
 }
