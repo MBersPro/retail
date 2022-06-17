@@ -16,21 +16,6 @@ const initialState = {
 const Korzina = ({ korzina, deleteFromKorzina }) => {
   const [formState, setFormState] = useState({ ...initialState });
 
-  // if(tgBtn){
-  //  tgBtn.addEventListener("submit" , function(e){
-  //   e.preventDefault()
-
-  //   let message = `<b>Заявка от:</b>${this.name.value}\n`
-  //   message += `<b>Номер:</b>${this.number.value}`
-  //   axios.post(URI_API, {
-  //     chat_id: CHAT_ID,
-  //     parse_mode: 'html',
-  //     text: message
-  //    })
-  //  })
-
-  // }
-
   const onHandleChange = (e) => {
     const { value, name } = e.target;
     setFormState((prev) => ({ ...prev, [name]: value }));
