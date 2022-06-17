@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import styles from "./Korzina.module.css";
 import KorzinaProduct from "./KorzinaProduct/KorzinaProduct";
 
-const TOKEN = "5369341915:AAF5FChqpjA1XfbPbi1mWuxCC2zIxTGELDs";
-const CHAT_ID = "-1001766390152";
+const TOKEN = "5538624988:AAFVYfx146dEyMVZmdUDB9kcSXNLOmLIAgs";
+const CHAT_ID = "5000617170";
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 const initialState = {
