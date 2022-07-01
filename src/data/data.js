@@ -111,7 +111,7 @@ export const data = [
 
   {
     name: "Кеды LV",
-    price: 25000,
+    price: 22000,
     image: {
       brown: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0005%2Fgrey%2F0005.br.1.JPG?alt=media&token=a968d749-a245-4756-a6a2-3cb63898e176",
@@ -121,7 +121,7 @@ export const data = [
       ],
     },
     description:
-      "Высокие кеды ЛВ, модель Тату, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
+      "Высокие кеды LV, модель Tatu, цвет бронза, выполнены из мягкой металлизированной кожи с инициалами LV сбоку и подошвой из каучука.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -130,7 +130,7 @@ export const data = [
   },
   {
     name: "Кеды LV",
-    price: 25000,
+    price: 22000,
     image: {
       blue: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0006%2Fblue%2F0006.bl.1.JPG?alt=media&token=19e0dafa-8c95-40cc-a6c4-79bfefd33c67",
@@ -148,7 +148,7 @@ export const data = [
       ],
     },
     description:
-      "Высокие кеды ЛВ, модель Тату, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
+      "Высокие кеды LV, модель Tatu, выполнены из мягкой зернистой и гладкой кожи, с инициалом LV сбоку, с двухцветной шнуровкой и подошвой из каучука.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -337,7 +337,7 @@ export const data = [
   },
   {
     name: "Кроссовки Gucci Basket",
-    price: 15000,
+    price: 20000,
     image: {
       yellow: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0013%2Fyellow%2F0013.ye.1.jpg?alt=media&token=90b34c53-b60e-4b7b-8cbd-03cf1909dab0",
@@ -352,7 +352,7 @@ export const data = [
       ],
     },
     description:
-      "Выполнены из кожи с замшевыми нашивками, подошва многослойная(каучук+резина, высота 5 см), имеет мягкую текстильную подкладку.",
+      "Выполнены из прочной, мягкой иновационной эко кожи, подошва из каучука со светоотражающей окантовкой, на язычке нашивка из каучука с инициалом Гуччи.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -361,7 +361,7 @@ export const data = [
   },
   {
     name: "Кроссовки Tom Ford",
-    price: 25000,
+    price: 20000,
     image: {
       green: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0014%2Fgreen%2F0014.gr.1.jpg?alt=media&token=6de364e3-cb7f-4388-9892-c14f6783702f",
@@ -377,7 +377,7 @@ export const data = [
       ],
     },
     description:
-      "Выполнены из прочной, мягкой иновационной эко кожи, подошва из каучука со светоотражающей окантовкой, на язычке нашивка из каучука с инициалом Гуччи.",
+      "Выполнены из кожи с замшевыми нашивками, подошва многослойная(каучук+резина, высота 5 см), имеет мягкую текстильную подкладку.",
     group: "shoes",
     sex: "male",
     seasons: ["Осень", "Весна"],
@@ -386,7 +386,7 @@ export const data = [
   },
   {
     name: "Кардиган LV",
-    price: 25000,
+    price: 20000,
     image: {
       black: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0015%2Fblack%2F0015.bb.1.jpg?alt=media&token=eb8e5cbc-64d3-4aab-865f-4483cee4481f",
@@ -397,7 +397,7 @@ export const data = [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0015%2Fblack%2F0015.bb.6.jpg?alt=media&token=2c50ee6c-a515-4fa4-aaa7-638a618806b8",
       ],
     },
-    description: "У данного товара нет описания",
+    description: "Кардиган на молнии, из мягкого искусственного бархата, с контрастными манжетами из трикотажа.",
     group: "clothes",
     sex: "male",
     seasons: ["Осень", "Зима", "Весна"],
@@ -406,7 +406,7 @@ export const data = [
   },
   {
     name: "Куртка Prada",
-    price: 27000,
+    price: 20000,
     image: {
       black: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0016%2Fblack%2F0016.bb.1.jpg?alt=media&token=07658899-d903-4adf-8314-2a45d3cdbe39",
@@ -425,7 +425,7 @@ export const data = [
   },
   {
     name: "Толстовка Prada Re-NYLON",
-    price: 25000,
+    price: 20000,
     image: {
       black: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0017%2Fblack%2F0017.bb.1.jpg?alt=media&token=042c0806-884b-433f-a81d-06dbd72e6d50",
@@ -551,7 +551,7 @@ export const data = [
   },
   {
     name: "Худи Off-White Jordan",
-    price: 25000,
+    price: 20000,
     image: {
       black: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0023%2Fblack%2F0023.bb.1.jpg?alt=media&token=02c1471c-dcbd-47f6-b1a3-07b9dff7a0f2",
@@ -603,7 +603,7 @@ export const data = [
   },
   {
     name: "Бомбер Zegna",
-    price: 23000,
+    price: 20000,
     image: {
       blue: [
         "https://firebasestorage.googleapis.com/v0/b/retaillux-24005.appspot.com/o/products%2F0025%2Fblue%2F0025.bl.1.jpg?alt=media&token=f201de05-90e8-460e-8d9d-9ff8bce1aefa",
